@@ -1,0 +1,13 @@
+_site/
+.quarto/
+*_files/
+.DS_Store
+node_modules/
+*.log
+
+# Local content drafts (kept in ~/Claude/admin/website-content/, not in repo)
+draft/
+
+# Local previews & temp
+*.tmp
+*.bak

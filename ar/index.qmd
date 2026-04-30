@@ -1,0 +1,64 @@
+---
+title: "الرئيسية"
+pagetitle: "هوغو تراد"
+description: "باحث في العلوم السلوكية بكلية إفريقيا للأعمال، جامعة محمد السادس متعددة التخصصات. علم النفس المعرفي للتعقيد الإداري."
+lang: ar
+format:
+  html:
+    page-layout: article
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/">
+          <link rel="alternate" hreflang="x-default" href="https://hdtrad.github.io/en/">
+---
+
+```{=html}
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__name">هوغو تراد</h1>
+    <div class="hero__role">
+      أستاذ مساعد في العلوم السلوكية<br>
+      كلية إفريقيا للأعمال · جامعة محمد السادس متعددة التخصصات
+    </div>
+    <p class="hero__lede">
+      أدرس علم النفس المعرفي للتعقيد الإداري — لماذا تتراكم في الأنظمة احتكاكات لم يصممها أحد، وكيف نبني أدوات ومراجعات تُزيلها.
+    </p>
+    <nav class="hero__links">
+      <a href="mailto:hugo.trad@um6p.ma">البريد</a>
+      <a href="https://scholar.google.com/citations?user=&amp;hl=en">Scholar</a>
+      <a href="https://osf.io/">OSF</a>
+      <a href="https://github.com/hdtrad">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugo-trad/">LinkedIn</a>
+      <a href="cv.html">السيرة الذاتية</a>
+    </nav>
+  </div>
+  <img src="../assets/headshot.jpg" alt="هوغو تراد" class="hero__photo">
+</section>
+
+<ul class="tiles">
+  <li>
+    <h3><a href="research.html">البحث</a></h3>
+    <p>الانحيازات المعرفية، وعلم نفس العبء الإداري، وتصميم منهجيات المراجعة.</p>
+  </li>
+  <li>
+    <h3><a href="projects.html">المشاريع</a></h3>
+    <p>منصة مراجعة السلادج، والدليل المنهجي للممارسين.</p>
+  </li>
+  <li>
+    <h3><a href="cv.html">السيرة الذاتية</a></h3>
+    <p>المسار والمناصب الأساسية. ملف PDF كامل.</p>
+  </li>
+  <li>
+    <h3><a href="teaching.html">التدريس</a></h3>
+    <p>المناهج التجريبية (دكتوراه)، المناهج المختلطة، العلوم السلوكية التطبيقية.</p>
+  </li>
+</ul>
+
+<aside class="logos" aria-label="الانتماءات">
+  <span class="logo-placeholder">UM6P</span>
+  <span class="logo-placeholder">ABS</span>
+  <span class="logo-placeholder">ENS · Institut Jean Nicod</span>
+</aside>
+```

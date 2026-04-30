@@ -1,0 +1,9 @@
+---
+pagetitle: "Hugo Trad"
+include-in-header:
+  - text: |
+      <meta http-equiv="refresh" content="0; url=en/">
+      <link rel="canonical" href="https://hdtrad.github.io/en/">
+---
+
+[Continue to English version](en/index.qmd) · [Version française](fr/index.qmd) · [النسخة العربية](ar/index.qmd)

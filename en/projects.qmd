@@ -1,0 +1,41 @@
+---
+title: "Projects"
+pagetitle: "Projects — Hugo Trad"
+description: "The Sludge Audit Platform and the Sludge Methodology Guide."
+lang: en
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/projects">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/projets">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/projects">
+---
+
+# Projects {.hero__name}
+
+Two pieces of infrastructure that translate the research into something practitioners can use.
+
+```{=html}
+<article class="project-card">
+  <div class="project-card__shot">screenshot · sludge audit platform</div>
+  <h2 class="project-card__title">Sludge Audit Platform <span class="badge-status">in development</span></h2>
+  <p class="project-card__tagline">A two-sided platform for diagnosing and reforming administrative burden.</p>
+  <p>Citizens and employees report friction in plain language; an LLM layer categorises and aggregates the reports; auditors get a structured pre-assessment surface and a redesign workflow built on cognitive-science evidence. Built around the audit methodology developed during the doctoral work.</p>
+  <p class="project-card__links">
+    <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
+    <a href="#">Live demo (private)</a>
+  </p>
+</article>
+
+<article class="project-card">
+  <div class="project-card__shot">screenshot · methodology guide</div>
+  <h2 class="project-card__title">Sludge Methodology Guide <span class="badge-status">v1.0</span></h2>
+  <p class="project-card__tagline">A practitioner reference for running structured audits.</p>
+  <p>Four stages, eight phases, decision trees, a worked example, five templates, and fidelity rubrics. Companion to the platform; intended for practitioners at national agencies and at the OECD.</p>
+  <p class="project-card__links">
+    <a href="#">Read the guide</a>
+    <a href="#">PDF</a>
+  </p>
+</article>
+```

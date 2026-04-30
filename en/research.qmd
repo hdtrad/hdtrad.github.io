@@ -1,0 +1,58 @@
+---
+title: "Research"
+pagetitle: "Research — Hugo Trad"
+description: "Three threads: cognitive bias, the psychology of administrative burden, and audit design."
+lang: en
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/research">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/recherche">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/research">
+---
+
+# Research {.hero__name}
+
+My work sits at the intersection of cognitive psychology, behavioural science, and public administration. I ask why administrative systems accumulate complexity that nobody designed, and what cognitive mechanisms make that complexity sticky once it is in place.
+
+Three threads run through the research:
+
+(i) the **cognitive biases** that lead designers to add rather than remove — additive bias, outcome bias, moral framing;
+
+(ii) the **psychology of administrative burden** — how citizens and employees experience friction;
+
+(iii) the **design of audit methodologies and tools** that translate this evidence into actionable reform.
+
+I collaborate occasionally with the OECD on sludge methodology and with national agencies on applied audits.
+
+## Working papers
+
+```{=html}
+<article class="entry">
+  <h3 class="entry__title">Additive bias in administrative design <span class="badge-status">in prep</span></h3>
+  <p class="entry__meta">with Brent Strickland</p>
+  <p class="entry__abstract">Why do designers of forms, procedures, and rules systematically add requirements rather than remove them, even when removal improves outcomes? Three experiments test additive bias as a cognitive driver of administrative accretion.</p>
+</article>
+
+<article class="entry">
+  <h3 class="entry__title">Outcome bias and the persistence of sludge <span class="badge-status">in prep</span></h3>
+  <p class="entry__abstract">When citizens are denied benefits because of administrative friction, observers blame the citizen, not the system. Five experiments link outcome-based evaluation to the persistence of sludge — and propose a process-based correction.</p>
+</article>
+
+<article class="entry">
+  <h3 class="entry__title">Moral foundations of sludge tolerance <span class="badge-status">in prep</span></h3>
+  <p class="entry__meta">with Brent Strickland</p>
+  <p class="entry__abstract">Tolerance for administrative burden tracks moral framing: liberty-coded burdens are read as cost, fairness-coded burdens as protection. Two experiments map who tolerates which form of friction, and why.</p>
+</article>
+```
+
+## Doctoral thesis
+
+```{=html}
+<article class="entry">
+  <h3 class="entry__title">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity <span class="badge-status badge-status--soft">PhD, 2024</span></h3>
+  <p class="entry__meta">École normale supérieure, Institut Jean Nicod · Defended December 2024</p>
+  <p class="entry__abstract">A cognitive-science framework for sludge: why complexity accumulates, why it is hard to remove, and what evidence-based reform requires. Sets out the audit methodology developed since.</p>
+</article>
+```

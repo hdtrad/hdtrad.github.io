@@ -1,0 +1,65 @@
+---
+title: "Teaching"
+pagetitle: "Teaching — Hugo Trad"
+description: "Courses taught and planned at Africa Business School (UM6P) and elsewhere."
+lang: en
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/teaching">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/enseignement">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/teaching">
+---
+
+# Teaching {.hero__name}
+
+I teach at the intersection of experimental methods, cognitive psychology, and organizational behaviour — at PhD, Master, and executive levels.
+
+## Courses taught
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2026</span>
+    <div class="timeline__body">
+      <strong>Experimental Methods</strong>
+      <span class="timeline__sub">PhD · Africa Business School · UM6P</span>
+      <p>Reverse-classroom and Socratic format. Students build a registered report from question to analysis plan, critiqued at every step.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>Behavioural Insights Applied to Organizations</strong>
+      <span class="timeline__sub">Africa Business School · UM6P</span>
+      <p>How behavioural science evidence is translated into organizational practice — interventions, evaluation, scaling.</p>
+    </div>
+  </li>
+</ul>
+
+<p style="font-size:0.85rem;color:var(--bs-secondary);font-style:italic;">Awaiting current CV — additional courses (and prior teaching at ENS / Cogmaster) to be added.</p>
+```
+
+## Planned
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2026 —</span>
+    <div class="timeline__body">
+      <strong>Mixed Methods / Research Methods</strong>
+      <span class="timeline__sub">Master · Africa Business School · UM6P · co-taught with Abdel-Maoula Chaar</span>
+      <p>Project-based, AI-literate research methods. Students design and carry an end-to-end study integrating qualitative and quantitative work.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2026 —</span>
+    <div class="timeline__body">
+      <strong>Human Behaviour and Performance in the Workplace</strong>
+      <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
+      <p>Behavioural science spine for executive-track hospitality and service-sector students.</p>
+    </div>
+  </li>
+</ul>
+```

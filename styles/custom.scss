@@ -1,0 +1,409 @@
+/*-- scss:defaults --*/
+
+// Palette — design-teal (default branch). Swap accent on design-burgundy / design-um6p-green branches.
+$ivory:        #FAF8F5;
+$ink:          #1A1A1A;
+$muted:        #6B6B6B;
+$rule:         #E5E0D8;
+$accent:       #1F4E5F;   // deep teal
+$accent-soft:  #2C6275;
+$accent-tint:  #E8F0F2;
+
+// Quarto Bootstrap variable overrides
+$body-bg:           $ivory;
+$body-color:        $ink;
+$link-color:        $accent;
+$link-hover-color:  $accent-soft;
+$navbar-bg:         $ivory;
+$footer-bg:         $ivory;
+$border-color:      $rule;
+
+// Typography
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-serif:      "EB Garamond", Georgia, "Times New Roman", serif;
+$font-family-monospace:  "JetBrains Mono", "Menlo", monospace;
+
+$font-family-base:    $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+
+$font-size-base:    1.0625rem;   // 17px
+$line-height-base:  1.65;
+$h1-font-size:      2.25rem;
+$h2-font-size:      1.5rem;
+$h3-font-size:      1.2rem;
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
+
+/*-- scss:rules --*/
+
+// Google Fonts import — EB Garamond + Inter
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+// Reading width
+.page-columns,
+main.content {
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: 1.25rem;
+}
+
+// Hero
+.hero {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: start;
+
+  &__name {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin: 0 0 0.5rem 0;
+  }
+
+  &__role {
+    font-family: $font-family-sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: $muted;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  &__lede {
+    font-family: $font-family-serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 1.75rem;
+  }
+
+  &__photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: $rule;
+    border: 1px solid $rule;
+  }
+
+  &__photo--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $muted;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: $font-family-sans-serif;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid $rule;
+      padding-bottom: 1px;
+      transition: border-color 0.15s ease;
+
+      &:hover {
+        border-bottom-color: $accent;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    grid-template-columns: 1fr;
+    &__photo {
+      grid-row: 1;
+      width: 100px;
+      height: 100px;
+      justify-self: start;
+    }
+    &__name { font-size: 2rem; }
+  }
+}
+
+// Highlight tiles on home
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 2.5rem 0 3rem 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    border-top: 2px solid $ink;
+    padding: 0.75rem 0 0 0;
+  }
+
+  h3 {
+    font-size: 0.95rem;
+    font-family: $font-family-sans-serif;
+    margin: 0 0 0.4rem 0;
+    a {
+      text-decoration: none;
+      color: $ink;
+      &:hover { color: $accent; }
+    }
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: $muted;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 640px) {
+  .tiles { grid-template-columns: 1fr; }
+}
+
+// Logo strip
+.logos {
+  margin: 3rem 0 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  opacity: 0.55;
+  filter: grayscale(100%);
+
+  img {
+    height: 38px;
+    width: auto;
+  }
+
+  .logo-placeholder {
+    height: 38px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px dashed $rule;
+    color: $muted;
+    font-family: $font-family-sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+// Section heading style
+section h2,
+.content h2 {
+  font-family: $font-family-sans-serif;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: $muted;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $rule;
+}
+
+// Paper / project entry
+.entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $rule;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__title {
+    font-family: $font-family-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin: 0 0 0.4rem 0;
+    line-height: 1.3;
+  }
+
+  &__meta {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: $muted;
+    margin: 0 0 0.6rem 0;
+  }
+
+  &__abstract {
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0 0 0.6rem 0;
+  }
+}
+
+// Status badge
+.badge-status {
+  display: inline-block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.18rem 0.5rem;
+  border: 1px solid $accent;
+  color: $accent;
+  background: transparent;
+  border-radius: 999px;
+  vertical-align: 0.1em;
+  margin-left: 0.5rem;
+}
+
+.badge-status--soft {
+  border-color: $rule;
+  color: $muted;
+}
+
+// Project card
+.project-card {
+  margin-bottom: 2.5rem;
+
+  &__shot {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: $accent-tint;
+    border: 1px solid $rule;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $muted;
+    font-family: $font-family-sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  &__title {
+    font-family: $font-family-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem 0;
+  }
+
+  &__tagline {
+    color: $muted;
+    font-style: italic;
+    margin: 0 0 0.75rem 0;
+  }
+
+  &__links {
+    margin-top: 0.5rem;
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+
+    a {
+      margin-right: 1rem;
+      text-decoration: none;
+      border-bottom: 1px solid $rule;
+      &:hover { border-bottom-color: $accent; }
+    }
+  }
+}
+
+// CV / Teaching timeline
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $rule;
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: 1.25rem;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  &__date {
+    font-family: $font-family-sans-serif;
+    font-size: 0.85rem;
+    color: $muted;
+    padding-top: 0.15rem;
+  }
+
+  &__body {
+    font-size: 1rem;
+
+    strong {
+      font-family: $font-family-sans-serif;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline__sub {
+      color: $muted;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .timeline li {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+// Navbar tweaks
+.navbar {
+  border-bottom: 1px solid $rule;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+
+  .navbar-brand {
+    font-weight: 600;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+  }
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid $rule;
+  padding: 2rem 0;
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  color: $muted;
+
+  em {
+    font-family: $font-family-serif;
+    font-style: italic;
+  }
+}
+
+// Cleanup Quarto defaults
+.quarto-title-block,
+.quarto-title-banner,
+.quarto-title { display: none; }
+
+// Body padding
+body {
+  padding-top: 0;
+}

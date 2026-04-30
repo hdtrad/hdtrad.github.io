@@ -1,0 +1,92 @@
+---
+title: "السيرة الذاتية"
+pagetitle: "السيرة الذاتية — هوغو تراد"
+description: "السيرة الذاتية لهوغو تراد — أستاذ مساعد في العلوم السلوكية."
+lang: ar
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/cv">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/cv">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/cv">
+---
+
+# السيرة الذاتية {.hero__name}
+
+تسلسل زمني موجز. النسخة الكاملة بصيغة PDF متاحة أدناه؛ يُرجى المراسلة بالبريد الإلكتروني للحصول على آخر إصدار لأغراض التقييم.
+
+```{=html}
+<p class="hero__links" style="margin-bottom:2.5rem;">
+  <a href="../assets/cv.pdf">تحميل السيرة الذاتية (PDF)</a>
+  <span style="color:var(--bs-secondary);font-size:0.85rem;">— مؤقت إلى حين توفير هوغو للملف</span>
+</p>
+```
+
+## المناصب
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2025 —</span>
+    <div class="timeline__body">
+      <strong>أستاذ مساعد في العلوم السلوكية والسلوك التنظيمي</strong>
+      <span class="timeline__sub">كلية إفريقيا للأعمال · جامعة محمد السادس متعددة التخصصات · الرباط، المغرب</span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>تعاون غير منتظم حول منهجية السلادج</strong>
+      <span class="timeline__sub">فريق الرؤى السلوكية لمنظمة التعاون والتنمية الاقتصادية · غير رسمي</span>
+    </div>
+  </li>
+</ul>
+```
+
+## التكوين
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2024</span>
+    <div class="timeline__body">
+      <strong>دكتوراه في علوم الإدراك</strong>
+      <span class="timeline__sub">المدرسة العليا للأساتذة · معهد جان نيكو · باريس</span>
+      <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">—</span>
+    <div class="timeline__body">
+      <strong>ماستر في علوم الإدراك (Cogmaster)</strong>
+      <span class="timeline__sub">ENS · EHESS · جامعة باريس سيتي</span>
+    </div>
+  </li>
+</ul>
+```
+
+## أنشطة مختارة
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>استشارة منهجية</strong>
+      <span class="timeline__sub">منظمة التعاون والتنمية الاقتصادية · إطار مراجعة السلادج</span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>استشارة في العلوم السلوكية</strong>
+      <span class="timeline__sub">وكالات وطنية وقطاع خاص (انتقاء؛ التفاصيل عند الطلب)</span>
+    </div>
+  </li>
+</ul>
+```
+
+::: {.callout-note appearance="minimal"}
+**في انتظار السيرة الذاتية الكاملة.** هذه الصفحة هيكل مؤقت؛ بمجرد إيداع الملف في `assets/cv.pdf` وملء التسلسل الزمني، تصبح هي النسخة المرجعية.
+:::

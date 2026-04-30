@@ -1,0 +1,92 @@
+---
+title: "CV"
+pagetitle: "CV — Hugo Trad"
+description: "Curriculum vitae of Hugo Trad — Assistant Professor, behavioural science."
+lang: en
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/cv">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/cv">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/cv">
+---
+
+# CV {.hero__name}
+
+A condensed timeline. The full PDF is below; please request the latest version by email if you need it for review.
+
+```{=html}
+<p class="hero__links" style="margin-bottom:2.5rem;">
+  <a href="../assets/cv.pdf">Download CV (PDF)</a>
+  <span style="color:var(--bs-secondary);font-size:0.85rem;">— placeholder until Hugo provides the file</span>
+</p>
+```
+
+## Positions
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2025 —</span>
+    <div class="timeline__body">
+      <strong>Assistant Professor of Behavioural Science &amp; Organizational Behavior</strong>
+      <span class="timeline__sub">Africa Business School · Université Mohammed VI Polytechnique · Rabat, Morocco</span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>Occasional collaborator on sludge methodology</strong>
+      <span class="timeline__sub">OECD Behavioural Insights team · informal</span>
+    </div>
+  </li>
+</ul>
+```
+
+## Education
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2024</span>
+    <div class="timeline__body">
+      <strong>PhD, Cognitive Science</strong>
+      <span class="timeline__sub">École normale supérieure · Institut Jean Nicod · Paris</span>
+      <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">—</span>
+    <div class="timeline__body">
+      <strong>MSc, Cognitive Science (Cogmaster)</strong>
+      <span class="timeline__sub">ENS · EHESS · Université Paris Cité</span>
+    </div>
+  </li>
+</ul>
+```
+
+## Selected service
+
+```{=html}
+<ul class="timeline">
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>Methodology consultant</strong>
+      <span class="timeline__sub">OECD · sludge audit framework</span>
+    </div>
+  </li>
+  <li>
+    <span class="timeline__date">2024 —</span>
+    <div class="timeline__body">
+      <strong>Behavioural-science consulting</strong>
+      <span class="timeline__sub">National agencies and private-sector engagements (selected; details on request)</span>
+    </div>
+  </li>
+</ul>
+```
+
+::: {.callout-note appearance="minimal"}
+**Awaiting full CV from Hugo.** This page is a placeholder skeleton; once the file is dropped into `assets/cv.pdf` and the timeline is populated, this becomes the canonical version.
+:::

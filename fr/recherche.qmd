@@ -1,0 +1,58 @@
+---
+title: "Recherche"
+pagetitle: "Recherche — Hugo Trad"
+description: "Trois axes : biais cognitifs, psychologie du fardeau administratif, conception d'audits."
+lang: fr
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/research">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/recherche">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/research">
+---
+
+# Recherche {.hero__name}
+
+Mes travaux se situent à l'intersection de la psychologie cognitive, des sciences comportementales et de l'administration publique. Je cherche à comprendre pourquoi les systèmes administratifs accumulent une complexité que personne n'a conçue, et quels mécanismes cognitifs rendent cette complexité difficile à retirer une fois en place.
+
+Trois fils traversent la recherche :
+
+(i) les **biais cognitifs** qui poussent les concepteurs à ajouter plutôt qu'à retirer — biais d'addition, biais de résultat, cadrage moral ;
+
+(ii) la **psychologie du fardeau administratif** — comment citoyens et employés vivent ces frictions ;
+
+(iii) la **conception de méthodologies d'audit et d'outils** qui traduisent ces données en réformes concrètes.
+
+Je collabore ponctuellement avec l'OCDE sur la méthodologie d'audit du sludge et avec des agences nationales sur des audits appliqués.
+
+## Articles en cours
+
+```{=html}
+<article class="entry">
+  <h3 class="entry__title">Le biais d'addition dans la conception administrative <span class="badge-status">en préparation</span></h3>
+  <p class="entry__meta">avec Brent Strickland</p>
+  <p class="entry__abstract">Pourquoi les concepteurs de formulaires, de procédures et de règles ajoutent-ils systématiquement des exigences plutôt que d'en retirer, même quand le retrait améliore les résultats ? Trois expériences testent le biais d'addition comme moteur cognitif de l'accrétion administrative.</p>
+</article>
+
+<article class="entry">
+  <h3 class="entry__title">Biais de résultat et persistance du sludge <span class="badge-status">en préparation</span></h3>
+  <p class="entry__abstract">Lorsque des citoyens sont privés de droits à cause d'une friction administrative, les observateurs blâment le citoyen, pas le système. Cinq expériences relient l'évaluation centrée sur le résultat à la persistance du sludge — et proposent une correction centrée sur le processus.</p>
+</article>
+
+<article class="entry">
+  <h3 class="entry__title">Fondements moraux de la tolérance au sludge <span class="badge-status">en préparation</span></h3>
+  <p class="entry__meta">avec Brent Strickland</p>
+  <p class="entry__abstract">La tolérance au fardeau administratif suit le cadrage moral : les fardeaux codés « liberté » sont lus comme un coût, ceux codés « équité » comme une protection. Deux expériences cartographient qui tolère quelle forme de friction, et pourquoi.</p>
+</article>
+```
+
+## Thèse de doctorat
+
+```{=html}
+<article class="entry">
+  <h3 class="entry__title">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity <span class="badge-status badge-status--soft">PhD, 2024</span></h3>
+  <p class="entry__meta">École normale supérieure, Institut Jean Nicod · Soutenue en décembre 2024</p>
+  <p class="entry__abstract">Un cadre cognitif pour le sludge : pourquoi la complexité s'accumule, pourquoi elle est difficile à retirer, et ce qu'exige une réforme fondée sur des données probantes. Pose les bases de la méthodologie d'audit développée depuis.</p>
+</article>
+```

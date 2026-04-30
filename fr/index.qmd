@@ -1,0 +1,64 @@
+---
+title: "Accueil"
+pagetitle: "Hugo Trad"
+description: "Chercheur en sciences comportementales, Africa Business School (UM6P). Psychologie cognitive de la complexité administrative."
+lang: fr
+format:
+  html:
+    page-layout: article
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/">
+          <link rel="alternate" hreflang="x-default" href="https://hdtrad.github.io/en/">
+---
+
+```{=html}
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__name">Hugo Trad</h1>
+    <div class="hero__role">
+      Professeur assistant en sciences comportementales<br>
+      Africa Business School · Université Mohammed VI Polytechnique
+    </div>
+    <p class="hero__lede">
+      J'étudie la psychologie cognitive de la complexité administrative — pourquoi les systèmes accumulent des frictions que personne n'a voulues, et comment construire des outils et des audits qui les retirent.
+    </p>
+    <nav class="hero__links">
+      <a href="mailto:hugo.trad@um6p.ma">Email</a>
+      <a href="https://scholar.google.com/citations?user=&amp;hl=en">Scholar</a>
+      <a href="https://osf.io/">OSF</a>
+      <a href="https://github.com/hdtrad">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugo-trad/">LinkedIn</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+  <img src="../assets/headshot.jpg" alt="Hugo Trad" class="hero__photo">
+</section>
+
+<ul class="tiles">
+  <li>
+    <h3><a href="recherche.html">Recherche</a></h3>
+    <p>Biais cognitifs, psychologie du fardeau administratif, conception de méthodologies d'audit.</p>
+  </li>
+  <li>
+    <h3><a href="projets.html">Projets</a></h3>
+    <p>La plateforme d'audit du sludge et un guide méthodologique pour praticiens.</p>
+  </li>
+  <li>
+    <h3><a href="cv.html">CV</a></h3>
+    <p>Trajectoire et postes principaux. PDF complet disponible.</p>
+  </li>
+  <li>
+    <h3><a href="enseignement.html">Enseignement</a></h3>
+    <p>Méthodes expérimentales (PhD), méthodes mixtes, sciences comportementales appliquées.</p>
+  </li>
+</ul>
+
+<aside class="logos" aria-label="Affiliations">
+  <span class="logo-placeholder">UM6P</span>
+  <span class="logo-placeholder">ABS</span>
+  <span class="logo-placeholder">ENS · Institut Jean Nicod</span>
+</aside>
+```

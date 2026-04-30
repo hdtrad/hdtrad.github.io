@@ -1,0 +1,64 @@
+---
+title: "Home"
+pagetitle: "Hugo Trad"
+description: "Behavioural scientist working on the cognitive psychology of administrative complexity. Assistant Professor at Africa Business School, UM6P."
+lang: en
+format:
+  html:
+    page-layout: article
+    include-in-header:
+      - text: |
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/">
+          <link rel="alternate" hreflang="x-default" href="https://hdtrad.github.io/en/">
+---
+
+```{=html}
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__name">Hugo Trad</h1>
+    <div class="hero__role">
+      Assistant Professor of Behavioural Science<br>
+      Africa Business School · Université Mohammed VI Polytechnique
+    </div>
+    <p class="hero__lede">
+      I study the cognitive psychology of administrative complexity — why systems accumulate friction nobody designed, and how to build tools and audits that take it back out.
+    </p>
+    <nav class="hero__links">
+      <a href="mailto:hugo.trad@um6p.ma">Email</a>
+      <a href="https://scholar.google.com/citations?user=&amp;hl=en">Scholar</a>
+      <a href="https://osf.io/">OSF</a>
+      <a href="https://github.com/hdtrad">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugo-trad/">LinkedIn</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+  <img src="../assets/headshot.jpg" alt="Hugo Trad" class="hero__photo">
+</section>
+
+<ul class="tiles">
+  <li>
+    <h3><a href="research.html">Research</a></h3>
+    <p>Cognitive bias, the psychology of administrative burden, and the design of audit methodologies.</p>
+  </li>
+  <li>
+    <h3><a href="projects.html">Projects</a></h3>
+    <p>The Sludge Audit Platform and a practitioner Methodology Guide.</p>
+  </li>
+  <li>
+    <h3><a href="cv.html">CV</a></h3>
+    <p>Trajectory and selected positions. Full PDF available.</p>
+  </li>
+  <li>
+    <h3><a href="teaching.html">Teaching</a></h3>
+    <p>PhD-level Experimental Methods, Mixed Methods, applied behavioural science.</p>
+  </li>
+</ul>
+
+<aside class="logos" aria-label="Affiliations">
+  <span class="logo-placeholder">UM6P</span>
+  <span class="logo-placeholder">ABS</span>
+  <span class="logo-placeholder">ENS · Institut Jean Nicod</span>
+</aside>
+```
