@@ -35,7 +35,8 @@ body { background: var(--ivory); margin: 0; }
 .quarto-title,
 .nav-footer { display: none !important; }
 
-#quarto-content > main.content { padding: 0; max-width: none; margin: 0; }
+/* Neutralise Quarto's outer container so .content's max-width centers properly */
+#quarto-content.quarto-container { max-width: none; padding: 0; }
 
 /* ============================================================
    Page frame
