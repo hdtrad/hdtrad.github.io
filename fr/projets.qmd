@@ -5,6 +5,7 @@ description: "La plateforme d'audit du sludge et le guide méthodologique."
 lang: fr
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/projects">
@@ -12,30 +13,47 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/projects">
 ---
 
-# Projets {.hero__name}
-
-Deux pièces d'infrastructure qui traduisent la recherche en outils utilisables par les praticiens.
-
 ```{=html}
-<article class="project-card">
-  <div class="project-card__shot">capture · plateforme d'audit du sludge</div>
-  <h2 class="project-card__title">Plateforme d'audit du sludge <span class="badge-status">en développement</span></h2>
-  <p class="project-card__tagline">Une plateforme à deux faces pour diagnostiquer et réformer le fardeau administratif.</p>
-  <p>Citoyens et employés signalent les frictions en langage courant ; une couche LLM catégorise et agrège les signalements ; les auditeurs disposent d'une surface de pré-évaluation structurée et d'un flux de redéfinition fondé sur les données cognitives. Construite autour de la méthodologie d'audit développée pendant la thèse.</p>
-  <p class="project-card__links">
-    <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
-    <a href="#">Démo (privée)</a>
-  </p>
-</article>
+<nav class="langswitch" aria-label="Langue">
+  <a href="../en/projects.html">EN</a>
+  <a href="../fr/projets.html" class="is-active">FR</a>
+  <a href="../ar/projects.html">AR</a>
+</nav>
 
-<article class="project-card">
-  <div class="project-card__shot">capture · guide méthodologique</div>
-  <h2 class="project-card__title">Guide méthodologique du sludge <span class="badge-status">v1.0</span></h2>
-  <p class="project-card__tagline">Une référence pour les praticiens menant des audits structurés.</p>
-  <p>Quatre étapes, huit phases, arbres de décision, exemple détaillé, cinq modèles, et grilles de fidélité. Compagnon de la plateforme ; destiné aux praticiens d'agences nationales et de l'OCDE.</p>
-  <p class="project-card__links">
-    <a href="#">Lire le guide</a>
-    <a href="#">PDF</a>
-  </p>
-</article>
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">Hugo Trad</a>
+    <nav class="site-header__nav">
+      <a href="recherche.html">Recherche</a>
+      <a href="projets.html" class="is-active">Projets</a>
+      <a href="enseignement.html">Enseignement</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <article class="inner">
+    <h1 class="inner__title">Projets</h1>
+    <p class="inner__lede">Deux livrables open-source qui traduisent la recherche en outils utilisables par les agences et les auditeurs.</p>
+
+    <article class="project-card">
+      <h2 class="project-card__title">Plateforme d'audit du sludge <span class="badge-status">en développement</span></h2>
+      <p class="project-card__tagline">Plateforme à deux faces pour diagnostiquer et réformer le fardeau administratif.</p>
+      <p class="project-card__body">Citoyens et employés signalent les frictions en langage courant. Une couche LLM catégorise et agrège les signalements. Les auditeurs disposent d'une surface de pré-évaluation structurée et d'un flux de redéfinition fondé sur les données cognitives.</p>
+      <p class="project-card__links">
+        <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
+        <a href="#">Démo (privée)</a>
+      </p>
+    </article>
+
+    <article class="project-card">
+      <h2 class="project-card__title">Guide méthodologique du sludge <span class="badge-status">v1.0</span></h2>
+      <p class="project-card__tagline">Référence pour les praticiens menant des audits structurés.</p>
+      <p class="project-card__body">Quatre étapes, huit phases, arbres de décision, exemple détaillé, cinq modèles, grilles de fidélité. Compagnon de la plateforme ; pensé pour les agences nationales et l'OCDE.</p>
+      <p class="project-card__links">
+        <a href="#">Lire</a>
+        <a href="#">PDF</a>
+      </p>
+    </article>
+  </article>
+</main>
 ```

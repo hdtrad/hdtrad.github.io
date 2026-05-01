@@ -1,10 +1,11 @@
 ---
 title: "السيرة الذاتية"
 pagetitle: "السيرة الذاتية — هوغو تراد"
-description: "السيرة الذاتية لهوغو تراد — أستاذ مساعد في العلوم السلوكية."
+description: "السيرة الذاتية لهوغو تراد."
 lang: ar
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/cv">
@@ -12,81 +13,90 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/cv">
 ---
 
-# السيرة الذاتية {.hero__name}
-
-تسلسل زمني موجز. النسخة الكاملة بصيغة PDF متاحة أدناه؛ يُرجى المراسلة بالبريد الإلكتروني للحصول على آخر إصدار لأغراض التقييم.
-
 ```{=html}
-<p class="hero__links" style="margin-bottom:2.5rem;">
-  <a href="../assets/cv.pdf">تحميل السيرة الذاتية (PDF)</a>
-  <span style="color:var(--bs-secondary);font-size:0.85rem;">— مؤقت إلى حين توفير هوغو للملف</span>
-</p>
+<nav class="langswitch" aria-label="اللغة">
+  <a href="../en/cv.html">EN</a>
+  <a href="../fr/cv.html">FR</a>
+  <a href="../ar/cv.html" class="is-active">AR</a>
+</nav>
+
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">هوغو تراد</a>
+    <nav class="site-header__nav">
+      <a href="research.html">البحث</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="teaching.html">التدريس</a>
+      <a href="cv.html" class="is-active">السيرة الذاتية</a>
+    </nav>
+  </header>
+
+  <article class="inner">
+    <h1 class="inner__title">السيرة الذاتية</h1>
+    <p class="inner__lede">تسلسل زمني موجز. السيرة الكاملة بصيغة PDF عند الطلب — يُرجى المراسلة بالبريد الإلكتروني للحصول على آخر إصدار.</p>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">المناصب</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2025 —</span>
+          <div class="timeline__body">
+            <strong>أستاذ مساعد في العلوم السلوكية والسلوك التنظيمي</strong>
+            <span class="timeline__sub">كلية إفريقيا للأعمال · جامعة محمد السادس متعددة التخصصات · الرباط</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>تعاون منهجي</strong>
+            <span class="timeline__sub">فريق الرؤى السلوكية لمنظمة التعاون والتنمية الاقتصادية · غير رسمي</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">التكوين</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2024</span>
+          <div class="timeline__body">
+            <strong>دكتوراه في علوم الإدراك</strong>
+            <span class="timeline__sub">معهد جان نيكو · المدرسة العليا للأساتذة (PSL) · باريس</span>
+            <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">—</span>
+          <div class="timeline__body">
+            <strong>ماستر في علوم الإدراك (Cogmaster)</strong>
+            <span class="timeline__sub">ENS · EHESS · جامعة باريس سيتي</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">أنشطة مختارة</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>استشارة منهجية</strong>
+            <span class="timeline__sub">منظمة التعاون والتنمية الاقتصادية · إطار مراجعة السلادج</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>استشارة في العلوم السلوكية</strong>
+            <span class="timeline__sub">وكالات وطنية وقطاع خاص (انتقاء؛ التفاصيل عند الطلب)</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">السيرة الذاتية الكاملة قادمة بصيغة PDF — مؤقت إلى حين توفير الملف.</p>
+  </article>
+</main>
 ```
-
-## المناصب
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2025 —</span>
-    <div class="timeline__body">
-      <strong>أستاذ مساعد في العلوم السلوكية والسلوك التنظيمي</strong>
-      <span class="timeline__sub">كلية إفريقيا للأعمال · جامعة محمد السادس متعددة التخصصات · الرباط، المغرب</span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>تعاون غير منتظم حول منهجية السلادج</strong>
-      <span class="timeline__sub">فريق الرؤى السلوكية لمنظمة التعاون والتنمية الاقتصادية · غير رسمي</span>
-    </div>
-  </li>
-</ul>
-```
-
-## التكوين
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2024</span>
-    <div class="timeline__body">
-      <strong>دكتوراه في علوم الإدراك</strong>
-      <span class="timeline__sub">المدرسة العليا للأساتذة · معهد جان نيكو · باريس</span>
-      <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">—</span>
-    <div class="timeline__body">
-      <strong>ماستر في علوم الإدراك (Cogmaster)</strong>
-      <span class="timeline__sub">ENS · EHESS · جامعة باريس سيتي</span>
-    </div>
-  </li>
-</ul>
-```
-
-## أنشطة مختارة
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>استشارة منهجية</strong>
-      <span class="timeline__sub">منظمة التعاون والتنمية الاقتصادية · إطار مراجعة السلادج</span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>استشارة في العلوم السلوكية</strong>
-      <span class="timeline__sub">وكالات وطنية وقطاع خاص (انتقاء؛ التفاصيل عند الطلب)</span>
-    </div>
-  </li>
-</ul>
-```
-
-::: {.callout-note appearance="minimal"}
-**في انتظار السيرة الذاتية الكاملة.** هذه الصفحة هيكل مؤقت؛ بمجرد إيداع الملف في `assets/cv.pdf` وملء التسلسل الزمني، تصبح هي النسخة المرجعية.
-:::

@@ -1,10 +1,11 @@
 ---
 title: "البحث"
 pagetitle: "البحث — هوغو تراد"
-description: "ثلاثة محاور: الانحيازات المعرفية، علم نفس العبء الإداري، تصميم منهجيات المراجعة."
+description: "الجذور المعرفية للتعقيد الإداري — منشور، أوراق قيد الإعداد، وأطروحة الدكتوراه."
 lang: ar
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/research">
@@ -12,47 +13,65 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/research">
 ---
 
-# البحث {.hero__name}
-
-تتقاطع أعمالي بين علم النفس المعرفي، والعلوم السلوكية، والإدارة العامة. أتساءل لماذا تتراكم في الأنظمة الإدارية تعقيدات لم يصممها أحد، وما الآليات المعرفية التي تجعل هذه التعقيدات راسخة بمجرد ظهورها.
-
-تنتظم الأبحاث حول ثلاثة محاور:
-
-(١) **الانحيازات المعرفية** التي تدفع المصممين إلى الإضافة بدل الحذف — انحياز الإضافة، وانحياز النتيجة، والتأطير الأخلاقي.
-
-(٢) **علم نفس العبء الإداري** — كيف يعيش المواطنون والموظفون هذه الاحتكاكات.
-
-(٣) **تصميم منهجيات المراجعة والأدوات** التي تترجم هذه الأدلة إلى إصلاح ملموس.
-
-أتعاون بصورة غير منتظمة مع منظمة التعاون والتنمية الاقتصادية (OECD) حول منهجية مراجعة السلادج، ومع وكالات وطنية في مراجعات تطبيقية.
-
-## أوراق قيد الإعداد
-
 ```{=html}
-<article class="entry">
-  <h3 class="entry__title">انحياز الإضافة في التصميم الإداري <span class="badge-status">قيد الإعداد</span></h3>
-  <p class="entry__meta">بالاشتراك مع برنت سترِكلاند</p>
-  <p class="entry__abstract">لماذا يضيف مصممو الاستمارات والإجراءات والقواعد متطلبات جديدة بصورة منهجية بدل حذفها، حتى عندما يحسّن الحذفُ النتائجَ؟ ثلاث تجارب تختبر انحياز الإضافة بوصفه محركاً معرفياً للتراكم الإداري.</p>
-</article>
+<nav class="langswitch" aria-label="اللغة">
+  <a href="../en/research.html">EN</a>
+  <a href="../fr/recherche.html">FR</a>
+  <a href="../ar/research.html" class="is-active">AR</a>
+</nav>
 
-<article class="entry">
-  <h3 class="entry__title">انحياز النتيجة وثبات السلادج <span class="badge-status">قيد الإعداد</span></h3>
-  <p class="entry__abstract">حين يُحرم المواطنون من حقوقهم بسبب احتكاك إداري، يُلقي الناظرون اللوم على المواطن لا على النظام. خمس تجارب تربط التقييم القائم على النتيجة بثبات السلادج، وتقترح تصحيحاً قائماً على المسار.</p>
-</article>
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">هوغو تراد</a>
+    <nav class="site-header__nav">
+      <a href="research.html" class="is-active">البحث</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="teaching.html">التدريس</a>
+      <a href="cv.html">السيرة الذاتية</a>
+    </nav>
+  </header>
 
-<article class="entry">
-  <h3 class="entry__title">الأسس الأخلاقية لتقبّل السلادج <span class="badge-status">قيد الإعداد</span></h3>
-  <p class="entry__meta">بالاشتراك مع برنت سترِكلاند</p>
-  <p class="entry__abstract">يتبع تقبّل العبء الإداري التأطيرَ الأخلاقي: الأعباء المؤطَّرة بمنطق «الحرية» تُقرأ ككلفة، أما تلك المؤطَّرة بمنطق «الإنصاف» فتُقرأ كحماية. تجربتان تعرضان من يتقبل أيّ شكل من أشكال الاحتكاك، ولماذا.</p>
-</article>
-```
+  <article class="inner">
+    <h1 class="inner__title">البحث</h1>
+    <p class="inner__lede">الجذور المعرفية للتعقيد الإداري — لماذا يظهر السلادج ويستمر، وكيف نُصمِّم مراجعات تُقلِّصه.</p>
 
-## أطروحة الدكتوراه
+    <section class="inner__section">
+      <h2 class="inner__h2">منشور</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="https://doi.org/10.1017/bpp.2025.10025">Laypeople have difficulty processing efficiency when assessing environmental policies</a></p>
+          <p class="paper-list__meta">Marie, A., <em>Trad, H.</em>، Strickland, B. · <em>Behavioural Public Policy</em>، 2025 · doi:10.1017/bpp.2025.10025</p>
+        </li>
+      </ul>
+    </section>
 
-```{=html}
-<article class="entry">
-  <h3 class="entry__title">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity <span class="badge-status badge-status--soft">دكتوراه، 2024</span></h3>
-  <p class="entry__meta">المدرسة العليا للأساتذة (ENS) · معهد جان نيكو · نوقشت في ديسمبر 2024</p>
-  <p class="entry__abstract">إطار من علوم الإدراك للسلادج: لماذا يتراكم التعقيد، ولماذا يصعب حذفه، وما يستلزمه الإصلاحُ المستندُ إلى الأدلة. تُؤسِّس للمنهجية التي طُوِّرت لاحقاً.</p>
-</article>
+    <section class="inner__section">
+      <h2 class="inner__h2">أوراق قيد الإعداد</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="#">When more is less: Additive bias as a source of sludge in policy design</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em>، Winters, J.، Strickland, B. · ورقة قيد الإعداد</p>
+        </li>
+        <li>
+          <p class="paper-list__title"><a href="#">Outcome bias and the persistence of sludge</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em> · ورقة قيد الإعداد</p>
+        </li>
+        <li>
+          <p class="paper-list__title"><a href="#">The moral foundations of sludge</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em> و Strickland, B. · ورقة قيد الإعداد</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">أطروحة الدكتوراه</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="#">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</a></p>
+          <p class="paper-list__meta">دكتوراه، معهد جان نيكو · المدرسة العليا للأساتذة (PSL)، 2024</p>
+        </li>
+      </ul>
+    </section>
+  </article>
+</main>
 ```

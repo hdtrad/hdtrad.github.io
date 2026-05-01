@@ -5,7 +5,7 @@ description: "Chercheur en sciences comportementales, Africa Business School (UM
 lang: fr
 format:
   html:
-    page-layout: article
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/">
@@ -15,50 +15,75 @@ format:
 ---
 
 ```{=html}
-<section class="hero">
-  <div class="hero__text">
-    <h1 class="hero__name">Hugo Trad</h1>
-    <div class="hero__role">
-      Professeur assistant en sciences comportementales<br>
-      Africa Business School · Université Mohammed VI Polytechnique
-    </div>
+<nav class="langswitch" aria-label="Langue">
+  <a href="../en/">EN</a>
+  <a href="../fr/" class="is-active">FR</a>
+  <a href="../ar/">AR</a>
+</nav>
+
+<main class="content content--editorial">
+  <section class="hero hero--editorial">
+    <header class="hero__top">
+      <figure class="hero__figure">
+        <img src="../assets/headshot-square.jpg" alt="Hugo Trad" class="hero__photo hero__photo--portrait">
+      </figure>
+      <div class="hero__intro">
+        <p class="hero__location"><span>Rabat</span><i class="hero__loc-dot" aria-hidden="true"></i><span class="hero__loc-soft">Paris</span></p>
+        <h1 class="hero__name">Hugo Trad</h1>
+        <p class="hero__role">
+          Professeur assistant en sciences comportementales<br>
+          <span class="hero__role-soft">Africa Business School · Université Mohammed VI Polytechnique</span><br>
+          <span class="hero__role-soft">Doctorat, Institut Jean Nicod · École normale supérieure, 2024</span>
+        </p>
+      </div>
+    </header>
+
     <p class="hero__lede">
-      J'étudie la psychologie cognitive de la complexité administrative — pourquoi les systèmes accumulent des frictions que personne n'a voulues, et comment construire des outils et des audits qui les retirent.
+      J'étudie la psychologie cognitive de la complexité administrative — comment les organisations accumulent des frictions qui pèsent sur les individus comme sur les institutions, et comment concevoir des audits et des outils qui les retirent.
     </p>
-    <nav class="hero__links">
-      <a href="mailto:hugo.trad@um6p.ma">Email</a>
-      <a href="https://scholar.google.com/citations?user=&amp;hl=en">Scholar</a>
-      <a href="https://osf.io/">OSF</a>
-      <a href="https://github.com/hdtrad">GitHub</a>
-      <a href="https://www.linkedin.com/in/hugo-trad/">LinkedIn</a>
-      <a href="cv.html">CV</a>
+
+    <nav class="hero__links" aria-label="Profils">
+      <a href="mailto:hugo.trad@um6p.ma"><i class="bi bi-envelope"></i><span>Email</span></a>
+      <a href="https://scholar.google.com/citations?user=lqobKZ0AAAAJ"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>
+      <a href="https://orcid.org/"><i class="ai ai-orcid"></i><span>ORCID</span></a>
+      <a href="https://osf.io/"><i class="ai ai-osf"></i><span>OSF</span></a>
+      <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
+      <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
+      <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-cloud"></i><span>Bluesky</span></a>
+      <a href="https://x.com/hugo_trad"><i class="bi bi-twitter-x"></i><span>X</span></a>
     </nav>
-  </div>
-  <img src="../assets/headshot.jpg" alt="Hugo Trad" class="hero__photo">
-</section>
+  </section>
 
-<ul class="tiles">
-  <li>
-    <h3><a href="recherche.html">Recherche</a></h3>
-    <p>Biais cognitifs, psychologie du fardeau administratif, conception de méthodologies d'audit.</p>
-  </li>
-  <li>
-    <h3><a href="projets.html">Projets</a></h3>
-    <p>La plateforme d'audit du sludge et un guide méthodologique pour praticiens.</p>
-  </li>
-  <li>
-    <h3><a href="cv.html">CV</a></h3>
-    <p>Trajectoire et postes principaux. PDF complet disponible.</p>
-  </li>
-  <li>
-    <h3><a href="enseignement.html">Enseignement</a></h3>
-    <p>Méthodes expérimentales (PhD), méthodes mixtes, sciences comportementales appliquées.</p>
-  </li>
-</ul>
+  <ul class="tiles tiles--numbered">
+    <li>
+      <span class="tiles__num">01</span>
+      <h3><a href="recherche.html">Recherche</a></h3>
+      <p>Trois articles en préparation sur les biais cognitifs, la psychologie du fardeau administratif et la conception d'audits.</p>
+      <span class="tiles__cue">Trois axes · 3 articles en cours →</span>
+    </li>
+    <li>
+      <span class="tiles__num">02</span>
+      <h3><a href="projets.html">Projets</a></h3>
+      <p>Une plateforme d'audit ouverte et un guide méthodologique pour praticiens.</p>
+      <span class="tiles__cue">2 livrables open-source →</span>
+    </li>
+    <li>
+      <span class="tiles__num">03</span>
+      <h3><a href="enseignement.html">Enseignement</a></h3>
+      <p>Cours doctoraux, master et exécutifs en méthodes expérimentales et sciences comportementales appliquées.</p>
+      <span class="tiles__cue">2 en cours · 2 prévus →</span>
+    </li>
+    <li>
+      <span class="tiles__num">04</span>
+      <h3><a href="cv.html">Curriculum Vitae</a></h3>
+      <p>Formation, postes, activités de conseil. CV complet en PDF sur demande.</p>
+      <span class="tiles__cue">Télécharger le PDF →</span>
+    </li>
+  </ul>
 
-<aside class="logos" aria-label="Affiliations">
-  <span class="logo-placeholder">UM6P</span>
-  <span class="logo-placeholder">ABS</span>
-  <span class="logo-placeholder">ENS · Institut Jean Nicod</span>
-</aside>
+  <aside class="lockup" aria-label="Affiliation">
+    <span class="lockup__label">Affilié à</span>
+    <img src="../assets/logos/um6p-abs.png" alt="Africa Business School · Université Mohammed VI Polytechnique">
+  </aside>
+</main>
 ```

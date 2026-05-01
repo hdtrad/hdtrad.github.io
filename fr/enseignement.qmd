@@ -1,10 +1,11 @@
 ---
 title: "Enseignement"
 pagetitle: "Enseignement — Hugo Trad"
-description: "Cours dispensés et planifiés à l'Africa Business School (UM6P) et ailleurs."
+description: "Cours dispensés et planifiés à l'Africa Business School (UM6P)."
 lang: fr
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/teaching">
@@ -12,54 +13,73 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/teaching">
 ---
 
-# Enseignement {.hero__name}
-
-J'enseigne à l'intersection des méthodes expérimentales, de la psychologie cognitive et du comportement organisationnel — au niveau doctoral, master et exécutif.
-
-## Cours dispensés
-
 ```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2026</span>
-    <div class="timeline__body">
-      <strong>Méthodes expérimentales</strong>
-      <span class="timeline__sub">Doctorat · Africa Business School · UM6P</span>
-      <p>Format de classe inversée et socratique. Les étudiants construisent un rapport pré-enregistré, de la question à l'analyse, critiqué à chaque étape.</p>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>Sciences comportementales appliquées aux organisations</strong>
-      <span class="timeline__sub">Africa Business School · UM6P</span>
-      <p>Comment les données issues des sciences comportementales sont traduites en pratique organisationnelle — interventions, évaluation, mise à l'échelle.</p>
-    </div>
-  </li>
-</ul>
+<nav class="langswitch" aria-label="Langue">
+  <a href="../en/teaching.html">EN</a>
+  <a href="../fr/enseignement.html" class="is-active">FR</a>
+  <a href="../ar/teaching.html">AR</a>
+</nav>
 
-<p style="font-size:0.85rem;color:var(--bs-secondary);font-style:italic;">CV en attente — cours additionnels (et enseignements antérieurs à l'ENS / Cogmaster) à intégrer.</p>
-```
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">Hugo Trad</a>
+    <nav class="site-header__nav">
+      <a href="recherche.html">Recherche</a>
+      <a href="projets.html">Projets</a>
+      <a href="enseignement.html" class="is-active">Enseignement</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
 
-## Planifiés
+  <article class="inner">
+    <h1 class="inner__title">Enseignement</h1>
+    <p class="inner__lede">À l'intersection des méthodes expérimentales, de la psychologie cognitive et du comportement organisationnel — au niveau doctoral, master et exécutif.</p>
 
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2026 —</span>
-    <div class="timeline__body">
-      <strong>Méthodes mixtes / méthodes de recherche</strong>
-      <span class="timeline__sub">Master · Africa Business School · UM6P · co-enseigné avec Abdel-Maoula Chaar</span>
-      <p>Méthodes de recherche fondées sur projet, intégrant la pratique de l'IA. Les étudiants conçoivent et mènent une étude complète articulant qualitatif et quantitatif.</p>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2026 —</span>
-    <div class="timeline__body">
-      <strong>Comportement humain et performance au travail</strong>
-      <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
-      <p>Colonne vertébrale comportementale pour les étudiants exécutifs en hôtellerie et services.</p>
-    </div>
-  </li>
-</ul>
+    <section class="inner__section">
+      <h2 class="inner__h2">En cours</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2026</span>
+          <div class="timeline__body">
+            <strong>Méthodes expérimentales</strong>
+            <span class="timeline__sub">Doctorat · Africa Business School · UM6P</span>
+            <p>Format de classe inversée et socratique. Les étudiants construisent un rapport pré-enregistré, de la question à l'analyse, critiqué à chaque étape.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>Sciences comportementales appliquées aux organisations</strong>
+            <span class="timeline__sub">Africa Business School · UM6P</span>
+            <p>Comment les données issues des sciences comportementales se traduisent en pratique organisationnelle — interventions, évaluation, mise à l'échelle.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">Planifiés</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2026 —</span>
+          <div class="timeline__body">
+            <strong>Méthodes mixtes · Méthodes de recherche</strong>
+            <span class="timeline__sub">Master · Africa Business School · UM6P · co-enseigné avec Abdel-Maoula Chaar</span>
+            <p>Méthodes de recherche fondées sur projet, intégrant la pratique de l'IA. Les étudiants conçoivent et mènent une étude complète articulant qualitatif et quantitatif.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2026 —</span>
+          <div class="timeline__body">
+            <strong>Comportement humain et performance au travail</strong>
+            <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
+            <p>Colonne vertébrale comportementale pour les étudiants exécutifs en hôtellerie et services.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">Enseignements antérieurs (ENS · Cogmaster) à intégrer une fois le CV transmis.</p>
+  </article>
+</main>
 ```

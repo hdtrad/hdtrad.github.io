@@ -11,3 +11,6 @@ draft/
 # Local previews & temp
 *.tmp
 *.bak
+
+/.quarto/
+**/*.quarto_ipynb

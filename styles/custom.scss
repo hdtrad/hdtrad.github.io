@@ -1,409 +1,560 @@
-/*-- scss:defaults --*/
+/* ==========================================================================
+   Hugo Trad — site styles. Migrated from claude.ai/design canvas.
+   ========================================================================== */
 
-// Palette — design-teal (default branch). Swap accent on design-burgundy / design-um6p-green branches.
-$ivory:        #FAF8F5;
-$ink:          #1A1A1A;
-$muted:        #6B6B6B;
-$rule:         #E5E0D8;
-$accent:       #1F4E5F;   // deep teal
-$accent-soft:  #2C6275;
-$accent-tint:  #E8F0F2;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-// Quarto Bootstrap variable overrides
-$body-bg:           $ivory;
-$body-color:        $ink;
-$link-color:        $accent;
-$link-hover-color:  $accent-soft;
-$navbar-bg:         $ivory;
-$footer-bg:         $ivory;
-$border-color:      $rule;
+:root {
+  --ivory: #FAF8F5;
+  --paper: #F4EFE6;
+  --ink: #141414;
+  --ink-soft: #2A2A2A;
+  --muted: #6B6B6B;
+  --rule: #E0DAD0;
+  --rule-strong: #1A1A1A;
+  --accent: #8B2E2E;
+  --accent-soft: #A84545;
+  --accent-tint: #F4E8E6;
 
-// Typography
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-$font-family-serif:      "EB Garamond", Georgia, "Times New Roman", serif;
-$font-family-monospace:  "JetBrains Mono", "Menlo", monospace;
-
-$font-family-base:    $font-family-serif;
-$headings-font-family: $font-family-sans-serif;
-
-$font-size-base:    1.0625rem;   // 17px
-$line-height-base:  1.65;
-$h1-font-size:      2.25rem;
-$h2-font-size:      1.5rem;
-$h3-font-size:      1.2rem;
-$headings-font-weight: 600;
-$headings-line-height: 1.25;
+  --serif: "EB Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", "SF Mono", Menlo, monospace;
+}
 
 /*-- scss:rules --*/
 
-// Google Fonts import — EB Garamond + Inter
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap');
+/* ============================================================
+   Quarto reset — kill the navbar, breadcrumbs, banner, etc.
+   We use a custom in-content header instead.
+   ============================================================ */
+body { background: var(--ivory); margin: 0; }
+.navbar,
+.quarto-secondary-nav,
+.quarto-title-banner,
+.quarto-title-block,
+.quarto-title,
+.nav-footer { display: none !important; }
 
-// Reading width
-.page-columns,
-main.content {
-  max-width: 38rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-inline: 1.25rem;
+#quarto-content > main.content { padding: 0; max-width: none; margin: 0; }
+
+/* ============================================================
+   Page frame
+   ============================================================ */
+.content {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.65;
+  padding: 56px 48px 64px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.content--inner { padding: 0 48px 64px; max-width: 760px; }
+
+@media (max-width: 640px) {
+  .content { padding: 36px 22px 48px; }
+  .content--inner { padding: 0 22px 48px; }
 }
 
-// Hero
-.hero {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+/* ============================================================
+   Language switcher — tiny, top-right of every page
+   ============================================================ */
+.langswitch {
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  z-index: 5;
+  display: flex;
+  gap: 14px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.langswitch a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.langswitch a:hover { color: var(--ink); }
+.langswitch a.is-active { color: var(--ink); }
+
+/* RTL: flip to top-left */
+html[dir="rtl"] .langswitch { right: auto; left: 28px; }
+
+/* ============================================================
+   HERO — Editorial portrait
+   ============================================================ */
+.hero--editorial {
+  padding: 8px 0 40px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero__top {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2rem;
-  align-items: start;
+  grid-template-columns: 156px 1fr;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.hero__figure { margin: 0; position: relative; }
+.hero--editorial .hero__photo--portrait {
+  width: 156px;
+  height: 156px;
+  object-fit: cover;
+  object-position: 50% 32%;
+  border-radius: 4px;
+  display: block;
+  background: var(--rule);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 18px 36px -22px rgba(0,0,0,0.25);
+}
+.hero__intro { display: flex; flex-direction: column; }
 
-  &__name {
-    font-family: $font-family-sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    letter-spacing: -0.02em;
-    line-height: 1.05;
-    margin: 0 0 0.5rem 0;
-  }
+.hero__location {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--ink);
+  margin: 0 0 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero__loc-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--muted);
+  flex: 0 0 auto;
+}
+.hero__loc-soft { color: var(--muted); }
 
-  &__role {
-    font-family: $font-family-sans-serif;
-    font-weight: 500;
-    font-size: 0.95rem;
-    color: $muted;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-  }
+.hero--editorial .hero__name {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: -0.025em;
+  line-height: 1;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+.hero--editorial .hero__role {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.55;
+  margin: 0;
+  letter-spacing: 0.005em;
+}
+.hero__role-soft { font-weight: 400; color: var(--muted); }
 
-  &__lede {
-    font-family: $font-family-serif;
-    font-size: 1.15rem;
-    line-height: 1.6;
-    margin-bottom: 1.75rem;
-  }
-
-  &__photo {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: $rule;
-    border: 1px solid $rule;
-  }
-
-  &__photo--placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $muted;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-family: $font-family-sans-serif;
-  }
-
-  &__links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    font-family: $font-family-sans-serif;
-    font-size: 0.9rem;
-
-    a {
-      text-decoration: none;
-      border-bottom: 1px solid $rule;
-      padding-bottom: 1px;
-      transition: border-color 0.15s ease;
-
-      &:hover {
-        border-bottom-color: $accent;
-      }
-    }
-  }
+.hero--editorial .hero__lede {
+  font-family: var(--serif);
+  font-size: 23px;
+  line-height: 1.45;
+  margin: 0 0 36px;
+  text-wrap: pretty;
+  max-width: 34em;
+  color: var(--ink);
+}
+.hero--editorial .hero__lede em {
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 500;
 }
 
 @media (max-width: 640px) {
-  .hero {
-    grid-template-columns: 1fr;
-    &__photo {
-      grid-row: 1;
-      width: 100px;
-      height: 100px;
-      justify-self: start;
-    }
-    &__name { font-size: 2rem; }
-  }
+  .hero__top { grid-template-columns: 1fr; gap: 22px; }
+  .hero--editorial .hero__photo--portrait { width: 128px; height: 128px; }
+  .hero--editorial .hero__name { font-size: 38px; }
+  .hero--editorial .hero__lede { font-size: 19px; }
 }
 
-// Highlight tiles on home
-.tiles {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin: 2.5rem 0 3rem 0;
-  padding: 0;
-  list-style: none;
-
-  li {
-    border-top: 2px solid $ink;
-    padding: 0.75rem 0 0 0;
-  }
-
-  h3 {
-    font-size: 0.95rem;
-    font-family: $font-family-sans-serif;
-    margin: 0 0 0.4rem 0;
-    a {
-      text-decoration: none;
-      color: $ink;
-      &:hover { color: $accent; }
-    }
-  }
-
-  p {
-    font-size: 0.95rem;
-    color: $muted;
-    margin: 0;
-    line-height: 1.5;
-  }
-}
-
-@media (max-width: 640px) {
-  .tiles { grid-template-columns: 1fr; }
-}
-
-// Logo strip
-.logos {
-  margin: 3rem 0 1.5rem 0;
+/* ============================================================
+   Hero — social link buttons
+   ============================================================ */
+.hero__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hero__links a {
+  display: inline-flex;
   align-items: center;
-  opacity: 0.55;
-  filter: grayscale(100%);
-
-  img {
-    height: 38px;
-    width: auto;
-  }
-
-  .logo-placeholder {
-    height: 38px;
-    padding: 0 1rem;
-    display: flex;
-    align-items: center;
-    border: 1px dashed $rule;
-    color: $muted;
-    font-family: $font-family-sans-serif;
-    font-size: 0.75rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
+  gap: 6px;
+  text-decoration: none;
+  padding: 7px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  color: var(--ink);
+  transition: all 0.15s ease;
+  line-height: 1;
+  background: #fff;
 }
+.hero__links a i { font-size: 14px; color: var(--muted); transition: color 0.15s ease; }
+.hero__links a:hover { border-color: var(--ink); background: var(--paper); color: var(--ink); }
+.hero__links a:hover i { color: var(--ink); }
 
-// Section heading style
-section h2,
-.content h2 {
-  font-family: $font-family-sans-serif;
-  font-size: 1.05rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+/* ============================================================
+   TILES — Numbered home grid
+   ============================================================ */
+.tiles {
+  list-style: none;
+  margin: 48px 0 32px;
+  padding: 0;
+}
+.tiles--numbered {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 32px;
+}
+.tiles--numbered li {
+  position: relative;
+  padding: 28px 0 0;
+  border-top: 1px solid var(--ink);
+}
+.tiles--numbered .tiles__num {
+  font-family: var(--sans);
+  font-size: 12px;
   font-weight: 600;
-  color: $muted;
-  margin-top: 3rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid $rule;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  display: block;
+  margin: 0 0 10px;
+}
+.tiles--numbered h3 {
+  font-family: var(--sans);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+}
+.tiles--numbered h3 a { color: var(--ink); text-decoration: none; }
+.tiles--numbered h3 a:hover { color: var(--accent); }
+.tiles--numbered p {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 14px;
+  color: var(--ink);
+  max-width: 26em;
+}
+.tiles--numbered .tiles__cue {
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  display: block;
 }
 
-// Paper / project entry
-.entry {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid $rule;
-
-  &:last-child {
-    border-bottom: none;
-  }
-
-  &__title {
-    font-family: $font-family-serif;
-    font-weight: 600;
-    font-size: 1.15rem;
-    margin: 0 0 0.4rem 0;
-    line-height: 1.3;
-  }
-
-  &__meta {
-    font-family: $font-family-sans-serif;
-    font-size: 0.85rem;
-    color: $muted;
-    margin: 0 0 0.6rem 0;
-  }
-
-  &__abstract {
-    font-size: 1rem;
-    line-height: 1.55;
-    margin: 0 0 0.6rem 0;
-  }
+@media (max-width: 640px) {
+  .tiles--numbered { grid-template-columns: 1fr; gap: 24px; }
 }
 
-// Status badge
-.badge-status {
-  display: inline-block;
-  font-family: $font-family-sans-serif;
-  font-size: 0.7rem;
+/* ============================================================
+   INNER PAGES — site header + nav
+   ============================================================ */
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 22px 0 18px;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+  margin-bottom: 56px;
+}
+.site-header__brand {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  text-decoration: none;
+}
+.site-header__nav {
+  display: flex;
+  gap: 28px;
+  font-size: 13px;
+}
+.site-header__nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+  position: relative;
+  padding-bottom: 2px;
+}
+.site-header__nav a:hover { color: var(--ink); }
+.site-header__nav a.is-active {
+  color: var(--ink);
   font-weight: 500;
+}
+.site-header__nav a.is-active::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -19px;
+  border-bottom: 1px solid var(--ink);
+}
+
+@media (max-width: 640px) {
+  .site-header { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 36px; }
+  .site-header__nav { gap: 18px; flex-wrap: wrap; }
+  .site-header__nav a.is-active::after { bottom: -12px; }
+}
+
+/* ============================================================
+   Inner page content
+   ============================================================ */
+.inner__title {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+.inner__lede {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 48px;
+  text-wrap: pretty;
+  max-width: 34em;
+  color: var(--ink-soft);
+}
+.inner__section { margin-bottom: 48px; }
+.inner__h2 {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.18rem 0.5rem;
-  border: 1px solid $accent;
-  color: $accent;
-  background: transparent;
-  border-radius: 999px;
-  vertical-align: 0.1em;
-  margin-left: 0.5rem;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--rule);
 }
 
-.badge-status--soft {
-  border-color: $rule;
-  color: $muted;
-}
-
-// Project card
-.project-card {
-  margin-bottom: 2.5rem;
-
-  &__shot {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: $accent-tint;
-    border: 1px solid $rule;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $muted;
-    font-family: $font-family-sans-serif;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-
-  &__title {
-    font-family: $font-family-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin: 0 0 0.3rem 0;
-  }
-
-  &__tagline {
-    color: $muted;
-    font-style: italic;
-    margin: 0 0 0.75rem 0;
-  }
-
-  &__links {
-    margin-top: 0.5rem;
-    font-family: $font-family-sans-serif;
-    font-size: 0.85rem;
-
-    a {
-      margin-right: 1rem;
-      text-decoration: none;
-      border-bottom: 1px solid $rule;
-      &:hover { border-bottom-color: $accent; }
-    }
-  }
-}
-
-// CV / Teaching timeline
-.timeline {
+/* paper-list */
+.paper-list {
   list-style: none;
   padding: 0;
   margin: 0;
-
-  li {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid $rule;
-    display: grid;
-    grid-template-columns: 7rem 1fr;
-    gap: 1.25rem;
-
-    &:last-child { border-bottom: none; }
-  }
-
-  &__date {
-    font-family: $font-family-sans-serif;
-    font-size: 0.85rem;
-    color: $muted;
-    padding-top: 0.15rem;
-  }
-
-  &__body {
-    font-size: 1rem;
-
-    strong {
-      font-family: $font-family-sans-serif;
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.2rem;
-    }
-
-    .timeline__sub {
-      color: $muted;
-      font-size: 0.9rem;
-    }
-  }
 }
+.paper-list li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.paper-list li:last-child { border-bottom: none; }
+.paper-list__title {
+  margin: 0 0 4px;
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.35;
+}
+.paper-list__title a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+.paper-list__title a:hover { border-bottom-color: var(--ink); }
+.paper-list__meta {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.paper-list__meta em { font-style: italic; color: var(--ink-soft); }
 
+/* generic timeline reused on CV / Teaching */
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1.25rem;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.timeline li:last-child { border-bottom: none; }
+.timeline__date {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--muted);
+  padding-top: 0.15rem;
+  letter-spacing: 0.04em;
+}
+.timeline__body strong {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--ink);
+}
+.timeline__body .timeline__sub {
+  font-family: var(--sans);
+  color: var(--muted);
+  font-size: 13px;
+  display: block;
+  margin-bottom: 0.15rem;
+}
+.timeline__body p {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0.5rem 0 0;
+  color: var(--ink);
+}
 @media (max-width: 640px) {
-  .timeline li {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-  }
+  .timeline li { grid-template-columns: 1fr; gap: 0.4rem; }
 }
 
-// Navbar tweaks
-.navbar {
-  border-bottom: 1px solid $rule;
-  font-family: $font-family-sans-serif;
-  font-size: 0.9rem;
+/* ============================================================
+   PROJECTS — original card style (selected by Hugo)
+   ============================================================ */
+.project-card {
+  margin-bottom: 36px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--rule);
+}
+.project-card:last-of-type { border-bottom: none; }
+.project-card__title {
+  font-family: var(--sans);
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  line-height: 1.3;
+}
+.project-card__tagline {
+  font-family: var(--serif);
+  color: var(--muted);
+  font-style: italic;
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+.project-card__body {
+  font-size: 16px;
+  line-height: 1.55;
+  margin: 0 0 12px;
+}
+.project-card__links {
+  margin-top: 8px;
+  font-family: var(--sans);
+  font-size: 14px;
+}
+.project-card__links a {
+  margin-right: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  color: var(--accent);
+}
+.project-card__links a:hover { border-bottom-color: var(--accent); }
 
-  .navbar-brand {
-    font-weight: 600;
-  }
-
-  .nav-link {
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.78rem;
-  }
+/* ============================================================
+   Status badges
+   ============================================================ */
+.badge-status {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: transparent;
+  border-radius: 999px;
+  vertical-align: 2px;
+  margin-left: 8px;
 }
 
-// Footer
-.nav-footer {
-  border-top: 1px solid $rule;
-  padding: 2rem 0;
-  font-family: $font-family-sans-serif;
-  font-size: 0.85rem;
-  color: $muted;
+/* ============================================================
+   Affiliation lockup row (kept for home, restrained)
+   ============================================================ */
+.lockup {
+  margin: 48px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+}
+.lockup__label {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.lockup img {
+  height: 44px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+.lockup img:hover { filter: grayscale(0%); opacity: 1; }
 
-  em {
-    font-family: $font-family-serif;
-    font-style: italic;
-  }
+/* ============================================================
+   Arabic typography + RTL
+   ============================================================ */
+html[lang="ar"],
+html[dir="rtl"] {
+  body { font-family: "Amiri", "Noto Naskh Arabic", "Segoe UI", serif; }
+  .hero__name,
+  .hero__role,
+  .hero__location,
+  .hero__lede,
+  .inner__title,
+  .inner__h2,
+  .tiles--numbered h3,
+  .tiles--numbered .tiles__cue,
+  .tiles--numbered .tiles__num,
+  .site-header__brand,
+  .site-header__nav,
+  .timeline__date,
+  .timeline__body strong,
+  .timeline__body .timeline__sub,
+  .paper-list__meta,
+  .project-card__title,
+  .lockup__label,
+  .langswitch,
+  .hero__links { font-family: "IBM Plex Sans Arabic", "Segoe UI", sans-serif; }
+  .hero__lede,
+  .inner__lede,
+  .tiles--numbered p,
+  .timeline__body p,
+  .paper-list__title,
+  .project-card__tagline,
+  .project-card__body { font-family: "Amiri", serif; }
+
+  .hero__top { grid-template-columns: 1fr 156px; }
+  .timeline li { grid-template-columns: 1fr 7rem; }
+  .badge-status { margin-left: 0; margin-right: 8px; }
+  .project-card__links a { margin-right: 0; margin-left: 20px; }
+  .site-header__nav a.is-active::after { left: 0; right: 0; }
+
+  .inner__h2,
+  .lockup__label,
+  .langswitch,
+  .hero__location { letter-spacing: 0; }
 }
 
-// Cleanup Quarto defaults
-.quarto-title-block,
-.quarto-title-banner,
-.quarto-title { display: none; }
-
-// Body padding
-body {
-  padding-top: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');

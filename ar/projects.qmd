@@ -5,6 +5,7 @@ description: "منصة مراجعة السلادج، والدليل المنهج
 lang: ar
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/projects">
@@ -12,30 +13,47 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/projects">
 ---
 
-# المشاريع {.hero__name}
-
-قطعتان من البنية التحتية تُترجمان البحثَ إلى أدوات قابلة للاستخدام من قِبل الممارسين.
-
 ```{=html}
-<article class="project-card">
-  <div class="project-card__shot">صورة · منصة مراجعة السلادج</div>
-  <h2 class="project-card__title">منصة مراجعة السلادج <span class="badge-status">قيد التطوير</span></h2>
-  <p class="project-card__tagline">منصة ذات وجهين لتشخيص العبء الإداري وإصلاحه.</p>
-  <p>يُبلِّغ المواطنون والموظفون عن الاحتكاكات بلغة عادية؛ تتولى طبقة من النماذج اللغوية الكبرى تصنيفَ البلاغات وتجميعَها؛ ويحصل المراجعون على واجهة تقييم مُسبَق منظَّمة، وعلى مسار إعادة تصميم مبنيٍّ على الأدلة المعرفية. مبنية حول المنهجية التي طُوِّرت خلال أطروحة الدكتوراه.</p>
-  <p class="project-card__links">
-    <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
-    <a href="#">عرض تجريبي (خاص)</a>
-  </p>
-</article>
+<nav class="langswitch" aria-label="اللغة">
+  <a href="../en/projects.html">EN</a>
+  <a href="../fr/projets.html">FR</a>
+  <a href="../ar/projects.html" class="is-active">AR</a>
+</nav>
 
-<article class="project-card">
-  <div class="project-card__shot">صورة · الدليل المنهجي</div>
-  <h2 class="project-card__title">الدليل المنهجي للسلادج <span class="badge-status">الإصدار 1.0</span></h2>
-  <p class="project-card__tagline">مرجع للممارسين الذين يقودون مراجعات منظَّمة.</p>
-  <p>أربع مراحل، وثماني خطوات، وأشجار قرار، ومثال مفصَّل، وخمسة قوالب، وشبكات أمانة. مرافق للمنصة؛ موجَّه للممارسين في الوكالات الوطنية ومنظمة التعاون والتنمية الاقتصادية.</p>
-  <p class="project-card__links">
-    <a href="#">قراءة الدليل</a>
-    <a href="#">PDF</a>
-  </p>
-</article>
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">هوغو تراد</a>
+    <nav class="site-header__nav">
+      <a href="research.html">البحث</a>
+      <a href="projects.html" class="is-active">المشاريع</a>
+      <a href="teaching.html">التدريس</a>
+      <a href="cv.html">السيرة الذاتية</a>
+    </nav>
+  </header>
+
+  <article class="inner">
+    <h1 class="inner__title">المشاريع</h1>
+    <p class="inner__lede">أداتان مفتوحتا المصدر تترجمان البحث إلى ما يستخدمه الوكالات والمراجعون.</p>
+
+    <article class="project-card">
+      <h2 class="project-card__title">منصة مراجعة السلادج <span class="badge-status">قيد التطوير</span></h2>
+      <p class="project-card__tagline">منصة ذات وجهين لتشخيص العبء الإداري وإصلاحه.</p>
+      <p class="project-card__body">يُبلِّغ المواطنون والموظفون عن الاحتكاكات بلغة عادية. تتولى طبقة من النماذج اللغوية الكبرى تصنيف البلاغات وتجميعها. يحصل المراجعون على واجهة تقييم مُسبَق منظَّمة، ومسار إعادة تصميم مبنيٍّ على الأدلة المعرفية.</p>
+      <p class="project-card__links">
+        <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
+        <a href="#">عرض تجريبي (خاص)</a>
+      </p>
+    </article>
+
+    <article class="project-card">
+      <h2 class="project-card__title">الدليل المنهجي للسلادج <span class="badge-status">الإصدار 1.0</span></h2>
+      <p class="project-card__tagline">مرجع للممارسين الذين يقودون مراجعات منظَّمة.</p>
+      <p class="project-card__body">أربع مراحل، وثماني خطوات، وأشجار قرار، ومثال مفصَّل، وخمسة قوالب، وشبكات أمانة. مرافق للمنصة؛ موجَّه للوكالات الوطنية ومنظمة التعاون والتنمية الاقتصادية.</p>
+      <p class="project-card__links">
+        <a href="#">قراءة</a>
+        <a href="#">PDF</a>
+      </p>
+    </article>
+  </article>
+</main>
 ```

@@ -1,10 +1,11 @@
 ---
 title: "Recherche"
 pagetitle: "Recherche — Hugo Trad"
-description: "Trois axes : biais cognitifs, psychologie du fardeau administratif, conception d'audits."
+description: "Racines cognitives de la complexité administrative — articles publiés, en préparation, et thèse de doctorat."
 lang: fr
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/research">
@@ -12,47 +13,65 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/research">
 ---
 
-# Recherche {.hero__name}
-
-Mes travaux se situent à l'intersection de la psychologie cognitive, des sciences comportementales et de l'administration publique. Je cherche à comprendre pourquoi les systèmes administratifs accumulent une complexité que personne n'a conçue, et quels mécanismes cognitifs rendent cette complexité difficile à retirer une fois en place.
-
-Trois fils traversent la recherche :
-
-(i) les **biais cognitifs** qui poussent les concepteurs à ajouter plutôt qu'à retirer — biais d'addition, biais de résultat, cadrage moral ;
-
-(ii) la **psychologie du fardeau administratif** — comment citoyens et employés vivent ces frictions ;
-
-(iii) la **conception de méthodologies d'audit et d'outils** qui traduisent ces données en réformes concrètes.
-
-Je collabore ponctuellement avec l'OCDE sur la méthodologie d'audit du sludge et avec des agences nationales sur des audits appliqués.
-
-## Articles en cours
-
 ```{=html}
-<article class="entry">
-  <h3 class="entry__title">Le biais d'addition dans la conception administrative <span class="badge-status">en préparation</span></h3>
-  <p class="entry__meta">avec Brent Strickland</p>
-  <p class="entry__abstract">Pourquoi les concepteurs de formulaires, de procédures et de règles ajoutent-ils systématiquement des exigences plutôt que d'en retirer, même quand le retrait améliore les résultats ? Trois expériences testent le biais d'addition comme moteur cognitif de l'accrétion administrative.</p>
-</article>
+<nav class="langswitch" aria-label="Langue">
+  <a href="../en/research.html">EN</a>
+  <a href="../fr/recherche.html" class="is-active">FR</a>
+  <a href="../ar/research.html">AR</a>
+</nav>
 
-<article class="entry">
-  <h3 class="entry__title">Biais de résultat et persistance du sludge <span class="badge-status">en préparation</span></h3>
-  <p class="entry__abstract">Lorsque des citoyens sont privés de droits à cause d'une friction administrative, les observateurs blâment le citoyen, pas le système. Cinq expériences relient l'évaluation centrée sur le résultat à la persistance du sludge — et proposent une correction centrée sur le processus.</p>
-</article>
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">Hugo Trad</a>
+    <nav class="site-header__nav">
+      <a href="recherche.html" class="is-active">Recherche</a>
+      <a href="projets.html">Projets</a>
+      <a href="enseignement.html">Enseignement</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
 
-<article class="entry">
-  <h3 class="entry__title">Fondements moraux de la tolérance au sludge <span class="badge-status">en préparation</span></h3>
-  <p class="entry__meta">avec Brent Strickland</p>
-  <p class="entry__abstract">La tolérance au fardeau administratif suit le cadrage moral : les fardeaux codés « liberté » sont lus comme un coût, ceux codés « équité » comme une protection. Deux expériences cartographient qui tolère quelle forme de friction, et pourquoi.</p>
-</article>
-```
+  <article class="inner">
+    <h1 class="inner__title">Recherche</h1>
+    <p class="inner__lede">Racines cognitives de la complexité administrative — pourquoi le sludge apparaît et persiste, et comment concevoir des audits qui le réduisent.</p>
 
-## Thèse de doctorat
+    <section class="inner__section">
+      <h2 class="inner__h2">Publié</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="https://doi.org/10.1017/bpp.2025.10025">Laypeople have difficulty processing efficiency when assessing environmental policies</a></p>
+          <p class="paper-list__meta">Marie, A., <em>Trad, H.</em>, &amp; Strickland, B. · <em>Behavioural Public Policy</em>, 2025 · doi:10.1017/bpp.2025.10025</p>
+        </li>
+      </ul>
+    </section>
 
-```{=html}
-<article class="entry">
-  <h3 class="entry__title">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity <span class="badge-status badge-status--soft">PhD, 2024</span></h3>
-  <p class="entry__meta">École normale supérieure, Institut Jean Nicod · Soutenue en décembre 2024</p>
-  <p class="entry__abstract">Un cadre cognitif pour le sludge : pourquoi la complexité s'accumule, pourquoi elle est difficile à retirer, et ce qu'exige une réforme fondée sur des données probantes. Pose les bases de la méthodologie d'audit développée depuis.</p>
-</article>
+    <section class="inner__section">
+      <h2 class="inner__h2">Articles en préparation</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="#">When more is less: Additive bias as a source of sludge in policy design</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em>, Winters, J., &amp; Strickland, B. · Article en préparation</p>
+        </li>
+        <li>
+          <p class="paper-list__title"><a href="#">Outcome bias and the persistence of sludge</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em> · Article en préparation</p>
+        </li>
+        <li>
+          <p class="paper-list__title"><a href="#">The moral foundations of sludge</a></p>
+          <p class="paper-list__meta"><em>Trad, H.</em> &amp; Strickland, B. · Article en préparation</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">Thèse de doctorat</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title"><a href="#">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</a></p>
+          <p class="paper-list__meta">Doctorat, Institut Jean Nicod · École normale supérieure (PSL), 2024</p>
+        </li>
+      </ul>
+    </section>
+  </article>
+</main>
 ```

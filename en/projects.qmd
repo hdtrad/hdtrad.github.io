@@ -5,6 +5,7 @@ description: "The Sludge Audit Platform and the Sludge Methodology Guide."
 lang: en
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/projects">
@@ -12,30 +13,47 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/projects">
 ---
 
-# Projects {.hero__name}
-
-Two pieces of infrastructure that translate the research into something practitioners can use.
-
 ```{=html}
-<article class="project-card">
-  <div class="project-card__shot">screenshot · sludge audit platform</div>
-  <h2 class="project-card__title">Sludge Audit Platform <span class="badge-status">in development</span></h2>
-  <p class="project-card__tagline">A two-sided platform for diagnosing and reforming administrative burden.</p>
-  <p>Citizens and employees report friction in plain language; an LLM layer categorises and aggregates the reports; auditors get a structured pre-assessment surface and a redesign workflow built on cognitive-science evidence. Built around the audit methodology developed during the doctoral work.</p>
-  <p class="project-card__links">
-    <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
-    <a href="#">Live demo (private)</a>
-  </p>
-</article>
+<nav class="langswitch" aria-label="Language">
+  <a href="../en/projects.html" class="is-active">EN</a>
+  <a href="../fr/projets.html">FR</a>
+  <a href="../ar/projects.html">AR</a>
+</nav>
 
-<article class="project-card">
-  <div class="project-card__shot">screenshot · methodology guide</div>
-  <h2 class="project-card__title">Sludge Methodology Guide <span class="badge-status">v1.0</span></h2>
-  <p class="project-card__tagline">A practitioner reference for running structured audits.</p>
-  <p>Four stages, eight phases, decision trees, a worked example, five templates, and fidelity rubrics. Companion to the platform; intended for practitioners at national agencies and at the OECD.</p>
-  <p class="project-card__links">
-    <a href="#">Read the guide</a>
-    <a href="#">PDF</a>
-  </p>
-</article>
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">Hugo Trad</a>
+    <nav class="site-header__nav">
+      <a href="research.html">Research</a>
+      <a href="projects.html" class="is-active">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <article class="inner">
+    <h1 class="inner__title">Projects</h1>
+    <p class="inner__lede">Two open-source artefacts that translate the research into something agencies and auditors can use.</p>
+
+    <article class="project-card">
+      <h2 class="project-card__title">Sludge Audit Platform <span class="badge-status">in development</span></h2>
+      <p class="project-card__tagline">Two-sided platform for diagnosing and reforming administrative burden.</p>
+      <p class="project-card__body">Citizens and employees report friction in plain language. An LLM layer categorises and aggregates the reports. Auditors get a structured pre-assessment surface and a redesign workflow grounded in cognitive evidence.</p>
+      <p class="project-card__links">
+        <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
+        <a href="#">Demo (private)</a>
+      </p>
+    </article>
+
+    <article class="project-card">
+      <h2 class="project-card__title">Sludge Methodology Guide <span class="badge-status">v1.0</span></h2>
+      <p class="project-card__tagline">Practitioner reference for running structured audits.</p>
+      <p class="project-card__body">Four stages, eight phases, decision trees, a worked example, five templates, fidelity rubrics. Companion to the platform; designed for national agencies and the OECD.</p>
+      <p class="project-card__links">
+        <a href="#">Read</a>
+        <a href="#">PDF</a>
+      </p>
+    </article>
+  </article>
+</main>
 ```

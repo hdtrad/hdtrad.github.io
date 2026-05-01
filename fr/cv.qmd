@@ -1,10 +1,11 @@
 ---
 title: "CV"
 pagetitle: "CV — Hugo Trad"
-description: "Curriculum vitæ de Hugo Trad — professeur assistant, sciences comportementales."
+description: "Curriculum vitæ de Hugo Trad."
 lang: fr
 format:
   html:
+    page-layout: custom
     include-in-header:
       - text: |
           <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/en/cv">
@@ -12,81 +13,90 @@ format:
           <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/cv">
 ---
 
-# CV {.hero__name}
-
-Une chronologie condensée. Le PDF complet est disponible ci-dessous ; pour la dernière version à des fins d'évaluation, écrire par email.
-
 ```{=html}
-<p class="hero__links" style="margin-bottom:2.5rem;">
-  <a href="../assets/cv.pdf">Télécharger le CV (PDF)</a>
-  <span style="color:var(--bs-secondary);font-size:0.85rem;">— provisoire en attendant le fichier de Hugo</span>
-</p>
+<nav class="langswitch" aria-label="Langue">
+  <a href="../en/cv.html">EN</a>
+  <a href="../fr/cv.html" class="is-active">FR</a>
+  <a href="../ar/cv.html">AR</a>
+</nav>
+
+<main class="content content--inner">
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand">Hugo Trad</a>
+    <nav class="site-header__nav">
+      <a href="recherche.html">Recherche</a>
+      <a href="projets.html">Projets</a>
+      <a href="enseignement.html">Enseignement</a>
+      <a href="cv.html" class="is-active">CV</a>
+    </nav>
+  </header>
+
+  <article class="inner">
+    <h1 class="inner__title">Curriculum Vitæ</h1>
+    <p class="inner__lede">Une chronologie condensée. PDF complet sur demande — par email pour la dernière version.</p>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">Postes</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2025 —</span>
+          <div class="timeline__body">
+            <strong>Professeur assistant en sciences comportementales et comportement organisationnel</strong>
+            <span class="timeline__sub">Africa Business School · Université Mohammed VI Polytechnique · Rabat</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>Collaboration méthodologique</strong>
+            <span class="timeline__sub">Behavioural Insights de l'OCDE · informelle</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">Formation</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2024</span>
+          <div class="timeline__body">
+            <strong>Doctorat en sciences cognitives</strong>
+            <span class="timeline__sub">Institut Jean Nicod · École normale supérieure (PSL) · Paris</span>
+            <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">—</span>
+          <div class="timeline__body">
+            <strong>Master en sciences cognitives (Cogmaster)</strong>
+            <span class="timeline__sub">ENS · EHESS · Université Paris Cité</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="inner__section">
+      <h2 class="inner__h2">Activités sélectionnées</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>Conseil méthodologique</strong>
+            <span class="timeline__sub">OCDE · cadre d'audit du sludge</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2024 —</span>
+          <div class="timeline__body">
+            <strong>Conseil en sciences comportementales</strong>
+            <span class="timeline__sub">Agences nationales et secteur privé (sélection ; détails sur demande)</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">CV complet à venir en PDF — provisoire en attendant le fichier.</p>
+  </article>
+</main>
 ```
-
-## Postes
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2025 —</span>
-    <div class="timeline__body">
-      <strong>Professeur assistant en sciences comportementales et comportement organisationnel</strong>
-      <span class="timeline__sub">Africa Business School · Université Mohammed VI Polytechnique · Rabat, Maroc</span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>Collaboration ponctuelle sur la méthodologie sludge</strong>
-      <span class="timeline__sub">Équipe Behavioural Insights de l'OCDE · informelle</span>
-    </div>
-  </li>
-</ul>
-```
-
-## Formation
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2024</span>
-    <div class="timeline__body">
-      <strong>Doctorat en sciences cognitives</strong>
-      <span class="timeline__sub">École normale supérieure · Institut Jean Nicod · Paris</span>
-      <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">—</span>
-    <div class="timeline__body">
-      <strong>Master en sciences cognitives (Cogmaster)</strong>
-      <span class="timeline__sub">ENS · EHESS · Université Paris Cité</span>
-    </div>
-  </li>
-</ul>
-```
-
-## Activités sélectionnées
-
-```{=html}
-<ul class="timeline">
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>Conseil méthodologique</strong>
-      <span class="timeline__sub">OCDE · cadre d'audit du sludge</span>
-    </div>
-  </li>
-  <li>
-    <span class="timeline__date">2024 —</span>
-    <div class="timeline__body">
-      <strong>Conseil en sciences comportementales</strong>
-      <span class="timeline__sub">Agences nationales et secteur privé (sélection ; détails sur demande)</span>
-    </div>
-  </li>
-</ul>
-```
-
-::: {.callout-note appearance="minimal"}
-**CV complet à venir.** Cette page est une trame ; une fois le fichier déposé dans `assets/cv.pdf` et la chronologie remplie, ceci devient la version définitive.
-:::
