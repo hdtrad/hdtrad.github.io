@@ -182,8 +182,8 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
    Hero — social link buttons
    ============================================================ */
 .hero__links {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   font-family: var(--sans);
   font-size: 13px;
@@ -194,9 +194,10 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
 .hero__links a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   text-decoration: none;
-  padding: 7px 12px;
+  padding: 9px 12px;
   border: 1px solid var(--rule);
   border-radius: 6px;
   color: var(--ink);
@@ -207,6 +208,10 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
 .hero__links a i { font-size: 14px; color: var(--muted); transition: color 0.15s ease; }
 .hero__links a:hover { border-color: var(--ink); background: var(--paper); color: var(--ink); }
 .hero__links a:hover i { color: var(--ink); }
+
+@media (max-width: 640px) {
+  .hero__links { grid-template-columns: repeat(2, 1fr); }
+}
 
 /* ============================================================
    TILES — Numbered home grid
@@ -505,13 +510,10 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
   color: var(--muted);
 }
 .lockup img {
-  height: 44px;
+  height: 48px;
   width: auto;
-  filter: grayscale(100%);
-  opacity: 0.7;
-  transition: filter 0.2s ease, opacity 0.2s ease;
+  display: block;
 }
-.lockup img:hover { filter: grayscale(0%); opacity: 1; }
 
 /* ============================================================
    Arabic typography + RTL
