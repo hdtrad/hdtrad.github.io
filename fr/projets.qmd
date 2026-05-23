@@ -33,26 +33,19 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">Projets</h1>
-    <p class="inner__lede">Deux livrables open-source qui traduisent la recherche en outils utilisables par les agences et les auditeurs.</p>
+    <p class="inner__lede">Deux projets qui traduisent la recherche en outils pour les organisations et les gouvernements.</p>
 
     <article class="project-card">
       <h2 class="project-card__title">Plateforme d'audit du sludge <span class="badge-status">en développement</span></h2>
-      <p class="project-card__tagline">Plateforme à deux faces pour diagnostiquer et réformer le fardeau administratif.</p>
-      <p class="project-card__body">Citoyens et employés signalent les frictions en langage courant. Une couche LLM catégorise et agrège les signalements. Les auditeurs disposent d'une surface de pré-évaluation structurée et d'un flux de redéfinition fondé sur les données cognitives.</p>
+      <p class="project-card__tagline">Une plateforme numérique qui combine IA et intelligence collective pour aider les organisations à détecter et réduire la complexité administrative.</p>
       <p class="project-card__links">
-        <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
-        <a href="#">Démo (privée)</a>
+        <a href="mailto:hugo.trad@um6p.ma?subject=Sludge%20Audit%20Platform">Intéressé·e ? Contactez-moi pour un accès ou pour partager des retours</a>
       </p>
     </article>
 
     <article class="project-card">
-      <h2 class="project-card__title">Guide méthodologique du sludge <span class="badge-status">v1.0</span></h2>
-      <p class="project-card__tagline">Référence pour les praticiens menant des audits structurés.</p>
-      <p class="project-card__body">Quatre étapes, huit phases, arbres de décision, exemple détaillé, cinq modèles, grilles de fidélité. Compagnon de la plateforme ; pensé pour les agences nationales et l'OCDE.</p>
-      <p class="project-card__links">
-        <a href="#">Lire</a>
-        <a href="#">PDF</a>
-      </p>
+      <h2 class="project-card__title">Guide méthodologique du sludge</h2>
+      <p class="project-card__tagline">Un guide praticien pour mener des audits structurés de la complexité administrative.</p>
     </article>
   </article>
 </main>

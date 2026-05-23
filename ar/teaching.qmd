@@ -43,7 +43,7 @@ format:
           <div class="timeline__body">
             <strong>المناهج التجريبية</strong>
             <span class="timeline__sub">دكتوراه · كلية إفريقيا للأعمال · UM6P</span>
-            <p>صفّ مقلوب وأسلوب سقراطي. يبني الطلبة تقريراً مسبق التسجيل من السؤال إلى خطة التحليل، وتُنقَد كل خطوة على حدة.</p>
+            <p>تصميم وإجراء تجارب صارمة في العلوم الاجتماعية.</p>
           </div>
         </li>
         <li>
@@ -51,7 +51,7 @@ format:
           <div class="timeline__body">
             <strong>الرؤى السلوكية المُطبَّقة على المنظمات</strong>
             <span class="timeline__sub">دُرِّس في ABS/UM6P، ENA (كرسي الابتكار العام)، Sciences Po، CNAM، CentraleSupélec، IRA de Bastia، Croix-Rouge، Sup de Pub، Lab de Pôle Emploi</span>
-            <p>كيف تُترجَم أدلة العلوم السلوكية إلى ممارسة تنظيمية: التدخلات، والتقييم، والتوسع.</p>
+            <p>تطبيق نماذج سلوكية مبنية على الأدلة في المنظمات.</p>
           </div>
         </li>
       </ul>
@@ -65,7 +65,7 @@ format:
           <div class="timeline__body">
             <strong>المناهج المختلطة · مناهج البحث</strong>
             <span class="timeline__sub">ماستر · كلية إفريقيا للأعمال · UM6P</span>
-            <p>مناهج بحث قائمة على المشروع، مُتقِنة لاستخدام الذكاء الاصطناعي. يصمم الطلبة دراسة كاملة تجمع النوعي والكمّي.</p>
+            <p>تصميم دراسات تجمع بين المناهج النوعية والكمّية.</p>
           </div>
         </li>
         <li>
@@ -73,7 +73,7 @@ format:
           <div class="timeline__body">
             <strong>السلوك الإنساني والأداء في بيئة العمل</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
-            <p>عمود فقري سلوكي للطلبة التنفيذيين في قطاعَي الضيافة والخدمات.</p>
+            <p>العلوم السلوكية لقادة قطاعَي الضيافة والخدمات.</p>
           </div>
         </li>
       </ul>

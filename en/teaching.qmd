@@ -43,7 +43,7 @@ format:
           <div class="timeline__body">
             <strong>Experimental Methods</strong>
             <span class="timeline__sub">PhD · Africa Business School · UM6P</span>
-            <p>Reverse-classroom and Socratic format. Students build a registered report from question to analysis plan, critiqued at every step.</p>
+            <p>Designing and running rigorous experiments in the social sciences.</p>
           </div>
         </li>
         <li>
@@ -51,7 +51,7 @@ format:
           <div class="timeline__body">
             <strong>Behavioural Insights Applied to Organizations</strong>
             <span class="timeline__sub">Delivered at ABS/UM6P, ENA (Chaire Innovation Publique), Sciences Po, CNAM, CentraleSupélec, IRA de Bastia, Croix-Rouge, Sup de Pub, Lab de Pôle Emploi</span>
-            <p>How behavioural-science evidence is translated into organizational practice — interventions, evaluation, scaling.</p>
+            <p>Implementing evidence-based behavioural models in organizations.</p>
           </div>
         </li>
       </ul>
@@ -65,7 +65,7 @@ format:
           <div class="timeline__body">
             <strong>Mixed Methods · Research Methods</strong>
             <span class="timeline__sub">Master · Africa Business School · UM6P</span>
-            <p>Project-based, AI-literate research methods. Students design and carry an end-to-end study integrating qualitative and quantitative work.</p>
+            <p>Designing studies that combine qualitative and quantitative methods.</p>
           </div>
         </li>
         <li>
@@ -73,7 +73,7 @@ format:
           <div class="timeline__body">
             <strong>Human Behaviour and Performance in the Workplace</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
-            <p>Behavioural-science spine for executive-track hospitality and service-sector students.</p>
+            <p>Behavioural science for hospitality and service-sector leaders.</p>
           </div>
         </li>
       </ul>

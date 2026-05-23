@@ -39,8 +39,13 @@ format:
     </header>
 
     <p class="hero__lede">
-      J'étudie la psychologie cognitive de la complexité administrative — comment les organisations accumulent des frictions qui pèsent sur les individus comme sur les institutions, et comment concevoir des audits et des outils qui les retirent.
+      En combinant sciences comportementales, méthodologies d'amélioration des processus, intelligence collective et IA, mes travaux ciblent le sludge — la complexité administrative inutile — à travers trois questions interconnectées :
     </p>
+    <ol class="hero__questions">
+      <li>Pourquoi la cognition humaine le produit.</li>
+      <li>Ce qu'il fait aux personnes qui le vivent.</li>
+      <li>Comment les organisations et les gouvernements peuvent le détecter et le réduire en pratique.</li>
+    </ol>
 
     <nav class="hero__links" aria-label="Profils">
       <a href="mailto:hugo.trad@um6p.ma"><i class="bi bi-envelope"></i><span>Email</span></a>

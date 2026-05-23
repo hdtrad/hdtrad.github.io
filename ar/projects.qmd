@@ -33,26 +33,19 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">المشاريع</h1>
-    <p class="inner__lede">أداتان مفتوحتا المصدر تترجمان البحث إلى ما يستخدمه الوكالات والمراجعون.</p>
+    <p class="inner__lede">مشروعان يترجمان البحث إلى أدوات للمنظمات والحكومات.</p>
 
     <article class="project-card">
       <h2 class="project-card__title">منصة مراجعة السلادج <span class="badge-status">قيد التطوير</span></h2>
-      <p class="project-card__tagline">منصة ذات وجهين لتشخيص العبء الإداري وإصلاحه.</p>
-      <p class="project-card__body">يُبلِّغ المواطنون والموظفون عن الاحتكاكات بلغة عادية. تتولى طبقة من النماذج اللغوية الكبرى تصنيف البلاغات وتجميعها. يحصل المراجعون على واجهة تقييم مُسبَق منظَّمة، ومسار إعادة تصميم مبنيٍّ على الأدلة المعرفية.</p>
+      <p class="project-card__tagline">منصة رقمية تجمع بين الذكاء الاصطناعي والذكاء الجماعي لمساعدة المنظمات على اكتشاف التعقيد الإداري وتقليصه.</p>
       <p class="project-card__links">
-        <a href="https://github.com/hdtrad/sludge-audit-tool">GitHub</a>
-        <a href="#">عرض تجريبي (خاص)</a>
+        <a href="mailto:hugo.trad@um6p.ma?subject=Sludge%20Audit%20Platform">هل أنت مهتم؟ تواصل معي للحصول على وصول أو لمشاركة ملاحظاتك</a>
       </p>
     </article>
 
     <article class="project-card">
-      <h2 class="project-card__title">الدليل المنهجي للسلادج <span class="badge-status">الإصدار 1.0</span></h2>
-      <p class="project-card__tagline">مرجع للممارسين الذين يقودون مراجعات منظَّمة.</p>
-      <p class="project-card__body">أربع مراحل، وثماني خطوات، وأشجار قرار، ومثال مفصَّل، وخمسة قوالب، وشبكات أمانة. مرافق للمنصة؛ موجَّه للوكالات الوطنية ومنظمة التعاون والتنمية الاقتصادية.</p>
-      <p class="project-card__links">
-        <a href="#">قراءة</a>
-        <a href="#">PDF</a>
-      </p>
+      <h2 class="project-card__title">الدليل المنهجي للسلادج</h2>
+      <p class="project-card__tagline">دليل عملي لإجراء عمليات مراجعة منظَّمة للتعقيد الإداري.</p>
     </article>
   </article>
 </main>

@@ -43,7 +43,7 @@ format:
           <div class="timeline__body">
             <strong>Méthodes expérimentales</strong>
             <span class="timeline__sub">Doctorat · Africa Business School · UM6P</span>
-            <p>Format de classe inversée et socratique. Les étudiants construisent un rapport pré-enregistré, de la question à l'analyse, critiqué à chaque étape.</p>
+            <p>Concevoir et mener des expérimentations rigoureuses en sciences sociales.</p>
           </div>
         </li>
         <li>
@@ -51,7 +51,7 @@ format:
           <div class="timeline__body">
             <strong>Sciences comportementales appliquées aux organisations</strong>
             <span class="timeline__sub">Dispensé à ABS/UM6P, ENA (Chaire Innovation Publique), Sciences Po, CNAM, CentraleSupélec, IRA de Bastia, Croix-Rouge, Sup de Pub, Lab de Pôle Emploi</span>
-            <p>Comment les données issues des sciences comportementales se traduisent en pratique organisationnelle — interventions, évaluation, mise à l'échelle.</p>
+            <p>Mettre en place des modèles comportementaux fondés sur la preuve dans les organisations.</p>
           </div>
         </li>
       </ul>
@@ -65,7 +65,7 @@ format:
           <div class="timeline__body">
             <strong>Méthodes mixtes · Méthodes de recherche</strong>
             <span class="timeline__sub">Master · Africa Business School · UM6P</span>
-            <p>Méthodes de recherche fondées sur projet, intégrant la pratique de l'IA. Les étudiants conçoivent et mènent une étude complète articulant qualitatif et quantitatif.</p>
+            <p>Concevoir des études combinant méthodes qualitatives et quantitatives.</p>
           </div>
         </li>
         <li>
@@ -73,7 +73,7 @@ format:
           <div class="timeline__body">
             <strong>Comportement humain et performance au travail</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
-            <p>Colonne vertébrale comportementale pour les étudiants exécutifs en hôtellerie et services.</p>
+            <p>Sciences comportementales pour cadres de l'hôtellerie et des services.</p>
           </div>
         </li>
       </ul>

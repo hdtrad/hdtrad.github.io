@@ -350,6 +350,36 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
   text-wrap: pretty;
 }
 .inner__lede + .inner__intro { margin-top: -24px; }
+
+.hero__questions {
+  list-style: none;
+  counter-reset: question;
+  padding: 0;
+  margin: 8px 0 48px;
+  max-width: 34em;
+}
+.hero__questions li {
+  counter-increment: question;
+  position: relative;
+  padding-inline-start: 48px;
+  margin-bottom: 14px;
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.hero__questions li::before {
+  content: counter(question, decimal) ".";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
 .inner__section { margin-bottom: 48px; }
 .inner__h2 {
   font-family: var(--sans);
