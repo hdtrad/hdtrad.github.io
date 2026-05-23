@@ -340,6 +340,16 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
   max-width: 34em;
   color: var(--ink-soft);
 }
+.inner__intro {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 24px 0 56px;
+  max-width: 34em;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+.inner__lede + .inner__intro { margin-top: -24px; }
 .inner__section { margin-bottom: 48px; }
 .inner__h2 {
   font-family: var(--sans);

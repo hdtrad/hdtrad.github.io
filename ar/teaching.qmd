@@ -47,10 +47,10 @@ format:
           </div>
         </li>
         <li>
-          <span class="timeline__date">2024 —</span>
+          <span class="timeline__date">2018 —</span>
           <div class="timeline__body">
             <strong>الرؤى السلوكية المُطبَّقة على المنظمات</strong>
-            <span class="timeline__sub">كلية إفريقيا للأعمال · UM6P</span>
+            <span class="timeline__sub">دُرِّس في ABS/UM6P، ENA (كرسي الابتكار العام)، Sciences Po، CNAM، CentraleSupélec، IRA de Bastia، Croix-Rouge، Sup de Pub، Lab de Pôle Emploi</span>
             <p>كيف تُترجَم أدلة العلوم السلوكية إلى ممارسة تنظيمية: التدخلات، والتقييم، والتوسع.</p>
           </div>
         </li>
@@ -61,15 +61,15 @@ format:
       <h2 class="inner__h2">مزمعة</h2>
       <ul class="timeline">
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">يناير 2027</span>
           <div class="timeline__body">
             <strong>المناهج المختلطة · مناهج البحث</strong>
-            <span class="timeline__sub">ماستر · كلية إفريقيا للأعمال · UM6P · بالاشتراك مع عبد المولى شاكر</span>
+            <span class="timeline__sub">ماستر · كلية إفريقيا للأعمال · UM6P</span>
             <p>مناهج بحث قائمة على المشروع، مُتقِنة لاستخدام الذكاء الاصطناعي. يصمم الطلبة دراسة كاملة تجمع النوعي والكمّي.</p>
           </div>
         </li>
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">2026–2027</span>
           <div class="timeline__body">
             <strong>السلوك الإنساني والأداء في بيئة العمل</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
@@ -78,8 +78,6 @@ format:
         </li>
       </ul>
     </section>
-
-    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">التدريسات السابقة (ENS · Cogmaster) ستُضاف بعد استلام السيرة الذاتية.</p>
   </article>
 </main>
 ```

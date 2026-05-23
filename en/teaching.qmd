@@ -47,10 +47,10 @@ format:
           </div>
         </li>
         <li>
-          <span class="timeline__date">2024 —</span>
+          <span class="timeline__date">2018 —</span>
           <div class="timeline__body">
             <strong>Behavioural Insights Applied to Organizations</strong>
-            <span class="timeline__sub">Africa Business School · UM6P</span>
+            <span class="timeline__sub">Delivered at ABS/UM6P, ENA (Chaire Innovation Publique), Sciences Po, CNAM, CentraleSupélec, IRA de Bastia, Croix-Rouge, Sup de Pub, Lab de Pôle Emploi</span>
             <p>How behavioural-science evidence is translated into organizational practice — interventions, evaluation, scaling.</p>
           </div>
         </li>
@@ -61,15 +61,15 @@ format:
       <h2 class="inner__h2">Planned</h2>
       <ul class="timeline">
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">Jan 2027</span>
           <div class="timeline__body">
             <strong>Mixed Methods · Research Methods</strong>
-            <span class="timeline__sub">Master · Africa Business School · UM6P · co-taught with Abdel-Maoula Chaar</span>
+            <span class="timeline__sub">Master · Africa Business School · UM6P</span>
             <p>Project-based, AI-literate research methods. Students design and carry an end-to-end study integrating qualitative and quantitative work.</p>
           </div>
         </li>
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">2026–2027</span>
           <div class="timeline__body">
             <strong>Human Behaviour and Performance in the Workplace</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
@@ -78,8 +78,6 @@ format:
         </li>
       </ul>
     </section>
-
-    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">Earlier teaching (ENS · Cogmaster) to be added once the CV is provided.</p>
   </article>
 </main>
 ```

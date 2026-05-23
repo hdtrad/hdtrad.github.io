@@ -33,7 +33,7 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">Research</h1>
-    <p class="inner__lede">Cognitive roots of administrative complexity — why sludge appears and persists, and how to design audits that reduce it.</p>
+    <p class="inner__intro">Combining behavioural science, process improvement methodologies, collective intelligence, and AI, my work sits at three intersecting questions: why human cognition produces unnecessary administrative complexity, what that complexity does to the people who experience it, and how organisations can detect and reduce it in practice.</p>
 
     <section class="inner__section">
       <h2 class="inner__h2">Published</h2>

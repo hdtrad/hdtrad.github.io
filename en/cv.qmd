@@ -52,6 +52,13 @@ format:
             <span class="timeline__sub">OECD Behavioural Insights · informal</span>
           </div>
         </li>
+        <li>
+          <span class="timeline__date">2015 + 2016</span>
+          <div class="timeline__body">
+            <strong>Research engineer</strong>
+            <span class="timeline__sub">Ircam (CNRS) · ERC project <em>Cracking the Emotional Code of Music</em> · summers</span>
+          </div>
+        </li>
       </ul>
     </section>
 
@@ -67,36 +74,63 @@ format:
           </div>
         </li>
         <li>
-          <span class="timeline__date">—</span>
+          <span class="timeline__date">2015–2017</span>
           <div class="timeline__body">
             <strong>MSc, Cognitive Science (Cogmaster)</strong>
             <span class="timeline__sub">ENS · EHESS · Université Paris Cité</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2017–2018</span>
+          <div class="timeline__body">
+            <strong>Pre-doctoral programme, PSL-ITI</strong>
+            <span class="timeline__sub">Université Paris Sciences et Lettres · interdisciplinary research, innovation, entrepreneurship · excellence scholarship</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2014–2015</span>
+          <div class="timeline__body">
+            <strong>Visiting student, Neuroscience and Philosophy</strong>
+            <span class="timeline__sub">University of St Andrews · Scotland</span>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__date">2012–2015</span>
+          <div class="timeline__body">
+            <strong>Double BSc–BA, Biology and Philosophy</strong>
+            <span class="timeline__sub">Université Pierre et Marie Curie · Université Paris-Sorbonne</span>
           </div>
         </li>
       </ul>
     </section>
 
     <section class="inner__section">
-      <h2 class="inner__h2">Selected service</h2>
-      <ul class="timeline">
+      <h2 class="inner__h2">Published</h2>
+      <ul class="paper-list">
         <li>
-          <span class="timeline__date">2024 —</span>
-          <div class="timeline__body">
-            <strong>Methodology consultant</strong>
-            <span class="timeline__sub">OECD · sludge audit framework</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2024 —</span>
-          <div class="timeline__body">
-            <strong>Behavioural-science consulting</strong>
-            <span class="timeline__sub">National agencies and private-sector engagements (selected; details on request)</span>
-          </div>
+          <p class="paper-list__title"><a href="https://doi.org/10.1017/bpp.2025.10025">Laypeople have difficulty processing efficiency when assessing environmental policies</a></p>
+          <p class="paper-list__meta">Marie, A., <em>Trad, H.</em>, &amp; Strickland, B. · <em>Behavioural Public Policy</em>, 2025 · doi:10.1017/bpp.2025.10025</p>
         </li>
       </ul>
     </section>
 
-    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">Full CV will be published as PDF — placeholder until you provide the file.</p>
+    <section class="inner__section">
+      <h2 class="inner__h2">Working papers</h2>
+      <ul class="paper-list">
+        <li>
+          <p class="paper-list__title">When more is less: Additive bias as a source of sludge in policy design</p>
+          <p class="paper-list__meta"><em>Trad, H.</em>, Winters, J., &amp; Strickland, B.</p>
+        </li>
+        <li>
+          <p class="paper-list__title">Outcome bias and the persistence of sludge</p>
+          <p class="paper-list__meta"><em>Trad, H.</em></p>
+        </li>
+        <li>
+          <p class="paper-list__title">The moral foundations of sludge</p>
+          <p class="paper-list__meta"><em>Trad, H.</em> &amp; Strickland, B.</p>
+        </li>
+      </ul>
+    </section>
   </article>
 </main>
 ```

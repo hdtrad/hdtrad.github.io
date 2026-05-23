@@ -47,10 +47,10 @@ format:
           </div>
         </li>
         <li>
-          <span class="timeline__date">2024 —</span>
+          <span class="timeline__date">2018 —</span>
           <div class="timeline__body">
             <strong>Sciences comportementales appliquées aux organisations</strong>
-            <span class="timeline__sub">Africa Business School · UM6P</span>
+            <span class="timeline__sub">Dispensé à ABS/UM6P, ENA (Chaire Innovation Publique), Sciences Po, CNAM, CentraleSupélec, IRA de Bastia, Croix-Rouge, Sup de Pub, Lab de Pôle Emploi</span>
             <p>Comment les données issues des sciences comportementales se traduisent en pratique organisationnelle — interventions, évaluation, mise à l'échelle.</p>
           </div>
         </li>
@@ -61,15 +61,15 @@ format:
       <h2 class="inner__h2">Planifiés</h2>
       <ul class="timeline">
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">Janv. 2027</span>
           <div class="timeline__body">
             <strong>Méthodes mixtes · Méthodes de recherche</strong>
-            <span class="timeline__sub">Master · Africa Business School · UM6P · co-enseigné avec Abdel-Maoula Chaar</span>
+            <span class="timeline__sub">Master · Africa Business School · UM6P</span>
             <p>Méthodes de recherche fondées sur projet, intégrant la pratique de l'IA. Les étudiants conçoivent et mènent une étude complète articulant qualitatif et quantitatif.</p>
           </div>
         </li>
         <li>
-          <span class="timeline__date">2026 —</span>
+          <span class="timeline__date">2026–2027</span>
           <div class="timeline__body">
             <strong>Comportement humain et performance au travail</strong>
             <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
@@ -78,8 +78,6 @@ format:
         </li>
       </ul>
     </section>
-
-    <p style="font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:48px;">Enseignements antérieurs (ENS · Cogmaster) à intégrer une fois le CV transmis.</p>
   </article>
 </main>
 ```

@@ -45,8 +45,6 @@ format:
     <nav class="hero__links" aria-label="Profils">
       <a href="mailto:hugo.trad@um6p.ma"><i class="bi bi-envelope"></i><span>Email</span></a>
       <a href="https://scholar.google.com/citations?user=lqobKZ0AAAAJ"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>
-      <a href="https://orcid.org/"><i class="ai ai-orcid"></i><span>ORCID</span></a>
-      <a href="https://osf.io/"><i class="ai ai-osf"></i><span>OSF</span></a>
       <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
       <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-bluesky"></i><span>Bluesky</span></a>
