@@ -48,7 +48,7 @@ format:
     </header>
 
     <p class="hero__lede">
-      En combinant sciences comportementales et méthodologies d'amélioration des processus, mes travaux étudient le sludge — la complexité administrative inutile — à travers trois questions interconnectées :
+      En combinant sciences comportementales et méthodologies d'amélioration des processus, mes travaux étudient le sludge excessif — la complexité administrative inutile — à travers trois questions interconnectées :
     </p>
     <ol class="hero__questions">
       <li>Pourquoi la cognition humaine le produit.</li>

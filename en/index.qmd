@@ -48,7 +48,7 @@ format:
     </header>
 
     <p class="hero__lede">
-      Combining behavioural science and process improvement methodologies, my work investigates sludge — unnecessary administrative complexity — through three intersecting questions:
+      Combining behavioural science and process improvement methodologies, my work investigates excessive sludge — unnecessary administrative complexity — through three intersecting questions:
     </p>
     <ol class="hero__questions">
       <li>Why human cognition produces it.</li>
