@@ -1,7 +1,7 @@
 ---
 title: "CV"
 pagetitle: "CV — Hugo Trad"
-description: "Curriculum vitæ de Hugo Trad."
+description: "Curriculum vitæ de Hugo Trad — disponible en intégralité sur demande."
 lang: fr
 format:
   html:
@@ -33,103 +33,25 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">Curriculum Vitæ</h1>
-    <p class="inner__lede">Une chronologie condensée. PDF complet sur demande — par email pour la dernière version.</p>
 
     <section class="inner__section">
-      <h2 class="inner__h2">Postes</h2>
-      <ul class="timeline">
-        <li>
-          <span class="timeline__date">2025 —</span>
-          <div class="timeline__body">
-            <strong>Professeur assistant en sciences comportementales et comportement organisationnel</strong>
-            <span class="timeline__sub">Africa Business School · Université Mohammed VI Polytechnique · Rabat</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2024 —</span>
-          <div class="timeline__body">
-            <strong>Collaboration méthodologique</strong>
-            <span class="timeline__sub">Behavioural Insights de l'OCDE · informelle</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2015 + 2016</span>
-          <div class="timeline__body">
-            <strong>Ingénieur de recherche</strong>
-            <span class="timeline__sub">Ircam (CNRS) · projet ERC <em>Cracking the Emotional Code of Music</em> · étés</span>
-          </div>
-        </li>
-      </ul>
+      <h2 class="inner__h2">Actuellement</h2>
+      <p class="cv-lead"><em>Professeur assistant en sciences comportementales</em></p>
+      <p class="cv-sub">Africa Business School · Université Mohammed VI Polytechnique · Rabat, Maroc</p>
     </section>
 
     <section class="inner__section">
       <h2 class="inner__h2">Formation</h2>
-      <ul class="timeline">
-        <li>
-          <span class="timeline__date">2024</span>
-          <div class="timeline__body">
-            <strong>Doctorat en sciences cognitives</strong>
-            <span class="timeline__sub">Institut Jean Nicod · École normale supérieure (PSL) · Paris</span>
-            <span class="timeline__sub"><em>The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</em></span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2015–2017</span>
-          <div class="timeline__body">
-            <strong>Master en sciences cognitives (Cogmaster)</strong>
-            <span class="timeline__sub">ENS · EHESS · Université Paris Cité</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2017–2018</span>
-          <div class="timeline__body">
-            <strong>Programme pré-doctoral PSL-ITI</strong>
-            <span class="timeline__sub">Université Paris Sciences et Lettres · recherche interdisciplinaire, innovation et entrepreneuriat · bourse d'excellence</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2014–2015</span>
-          <div class="timeline__body">
-            <strong>Échange universitaire, Neurosciences et Philosophie</strong>
-            <span class="timeline__sub">University of St Andrews · Écosse</span>
-          </div>
-        </li>
-        <li>
-          <span class="timeline__date">2012–2015</span>
-          <div class="timeline__body">
-            <strong>Double licence Biologie et Philosophie</strong>
-            <span class="timeline__sub">Université Pierre et Marie Curie · Université Paris-Sorbonne</span>
-          </div>
-        </li>
-      </ul>
+      <p class="cv-sub cv-sub--lg">
+        Doctorat et master en sciences cognitives — École normale supérieure (Institut Jean Nicod), Paris.<br>
+        Double licence en biologie et philosophie — Sorbonne, Paris.
+      </p>
     </section>
 
     <section class="inner__section">
-      <h2 class="inner__h2">Article publié</h2>
-      <ul class="paper-list">
-        <li>
-          <p class="paper-list__title"><a href="https://doi.org/10.1017/bpp.2025.10025">Laypeople have difficulty processing efficiency when assessing environmental policies</a></p>
-          <p class="paper-list__meta">Marie, A., <em>Trad, H.</em>, &amp; Strickland, B. · <em>Behavioural Public Policy</em>, 2025 · doi:10.1017/bpp.2025.10025</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="inner__section">
-      <h2 class="inner__h2">Working papers</h2>
-      <ul class="paper-list">
-        <li>
-          <p class="paper-list__title">When more is less: Additive bias as a source of sludge in policy design</p>
-          <p class="paper-list__meta"><em>Trad, H.</em>, Winters, J., &amp; Strickland, B.</p>
-        </li>
-        <li>
-          <p class="paper-list__title">Outcome bias and the persistence of sludge</p>
-          <p class="paper-list__meta"><em>Trad, H.</em></p>
-        </li>
-        <li>
-          <p class="paper-list__title">The moral foundations of sludge</p>
-          <p class="paper-list__meta"><em>Trad, H.</em> &amp; Strickland, B.</p>
-        </li>
-      </ul>
+      <h2 class="inner__h2">CV complet</h2>
+      <p class="cv-sub">Disponible sur demande.</p>
+      <a class="cv-request__btn" href="mailto:hugo.trad@um6p.ma?subject=Demande%20de%20CV">Demander le CV complet</a>
     </section>
   </article>
 </main>

@@ -33,7 +33,7 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">التدريس</h1>
-    <p class="inner__lede">عند تقاطع المناهج التجريبية وعلم النفس المعرفي والسلوك التنظيمي — في مستويات الدكتوراه والماستر والتنفيذي.</p>
+    <p class="inner__lede">عند تقاطع المناهج التجريبية وعلم النفس المعرفي والسلوك التنظيمي — في مستويات الدكتوراه والماستر والإجازة والتنفيذي.</p>
 
     <section class="inner__section">
       <h2 class="inner__h2">جارية</h2>
@@ -49,7 +49,7 @@ format:
         <li>
           <span class="timeline__date">2018 —</span>
           <div class="timeline__body">
-            <strong>الرؤى السلوكية المُطبَّقة على المنظمات</strong>
+            <strong>دمج العلوم السلوكية في المنظمات والسياسات العامة</strong>
             <span class="timeline__sub">دُرِّس في ABS/UM6P، ENA (كرسي الابتكار العام)، Sciences Po، CNAM، CentraleSupélec، IRA de Bastia، Croix-Rouge، Sup de Pub، Lab de Pôle Emploi</span>
             <p>تطبيق نماذج سلوكية مبنية على الأدلة في المنظمات.</p>
           </div>
@@ -72,7 +72,7 @@ format:
           <span class="timeline__date">2026–2027</span>
           <div class="timeline__body">
             <strong>السلوك الإنساني والأداء في بيئة العمل</strong>
-            <span class="timeline__sub">School of Hospitality Business &amp; Management · UM6P</span>
+            <span class="timeline__sub">إجازة · School of Hospitality Business &amp; Management · UM6P</span>
             <p>العلوم السلوكية لقادة قطاعَي الضيافة والخدمات.</p>
           </div>
         </li>

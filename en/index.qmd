@@ -22,6 +22,15 @@ format:
 </nav>
 
 <main class="content content--editorial">
+  <header class="site-header site-header--nav-only">
+    <nav class="site-header__nav">
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
   <section class="hero hero--editorial">
     <header class="hero__top">
       <figure class="hero__figure">
@@ -33,13 +42,13 @@ format:
         <p class="hero__role">
           Assistant Professor of Behavioural Science<br>
           <span class="hero__role-soft">Africa Business School · Université Mohammed VI Polytechnique</span><br>
-          <span class="hero__role-soft">PhD, Institut Jean Nicod · École normale supérieure, 2024</span>
+          <span class="hero__role-soft">PhD, Institut Jean Nicod · École normale supérieure</span>
         </p>
       </div>
     </header>
 
     <p class="hero__lede">
-      Combining behavioural science, process improvement methodologies, collective intelligence, and AI, my work targets sludge — unnecessary administrative complexity — through three intersecting questions:
+      Combining behavioural science and process improvement methodologies, my work investigates sludge — unnecessary administrative complexity — through three intersecting questions:
     </p>
     <ol class="hero__questions">
       <li>Why human cognition produces it.</li>
@@ -53,7 +62,7 @@ format:
       <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
       <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-bluesky"></i><span>Bluesky</span></a>
-      <a href="https://x.com/hugo_trad"><i class="bi bi-twitter-x"></i><span>X</span></a>
+      <a href="https://x.com/hugo_trad" aria-label="X"><i class="bi bi-twitter-x"></i></a>
     </nav>
   </section>
 
@@ -67,8 +76,8 @@ format:
     <li>
       <span class="tiles__num">02</span>
       <h3><a href="projects.html">Projects</a></h3>
-      <p>An open audit platform and a methodology guide built for practitioners.</p>
-      <span class="tiles__cue">2 open-source artefacts →</span>
+      <p>An open audit platform for running structured audits of administrative complexity.</p>
+      <span class="tiles__cue">Open · in development →</span>
     </li>
     <li>
       <span class="tiles__num">03</span>
@@ -79,8 +88,8 @@ format:
     <li>
       <span class="tiles__num">04</span>
       <h3><a href="cv.html">Curriculum Vitae</a></h3>
-      <p>Education, positions, advisory work. Full CV as PDF on request.</p>
-      <span class="tiles__cue">Download PDF →</span>
+      <p>Degrees and current position. Full CV available on request.</p>
+      <span class="tiles__cue">On request →</span>
     </li>
   </ul>
 

@@ -281,6 +281,7 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
   font-family: var(--sans);
   margin-bottom: 56px;
 }
+.site-header--nav-only { justify-content: flex-end; }
 .site-header__brand {
   font-family: var(--sans);
   font-weight: 600;
@@ -355,30 +356,52 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
   list-style: none;
   counter-reset: question;
   padding: 0;
-  margin: 8px 0 48px;
-  max-width: 34em;
+  margin: 28px 0 56px;
+  max-width: 38em;
 }
 .hero__questions li {
   counter-increment: question;
   position: relative;
-  padding-inline-start: 48px;
-  margin-bottom: 14px;
+  padding-block: 20px;
+  padding-inline-start: 92px;
+  padding-inline-end: 0;
+  border-block-end: 1px solid rgba(0, 0, 0, 0.08);
   font-family: var(--serif);
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 19px;
+  line-height: 1.45;
   color: var(--ink);
+  letter-spacing: -0.003em;
+  text-wrap: pretty;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+}
+.hero__questions li:first-child {
+  border-block-start: 1px solid rgba(0, 0, 0, 0.08);
 }
 .hero__questions li::before {
-  content: counter(question, decimal) ".";
+  content: counter(question, decimal-leading-zero);
   position: absolute;
-  inset-inline-start: 0;
-  top: 0;
-  font-family: var(--sans);
-  font-size: 14px;
-  font-weight: 600;
+  inset-inline-start: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 56px;
+  font-weight: 400;
   color: var(--accent);
-  letter-spacing: 0.02em;
-  line-height: 1.6;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+@media (max-width: 640px) {
+  .hero__questions li {
+    padding-inline-start: 72px;
+    font-size: 17px;
+  }
+  .hero__questions li::before {
+    font-size: 44px;
+    inset-inline-start: 4px;
+  }
 }
 .inner__section { margin-bottom: 48px; }
 .inner__h2 {
@@ -556,6 +579,57 @@ html[dir="rtl"] .langswitch { right: auto; left: 28px; }
 }
 
 /* ============================================================
+   CV — statement page
+   ============================================================ */
+.cv-lead {
+  font-family: var(--serif);
+  font-size: clamp(26px, 3.4vw, 34px);
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 6px;
+  text-wrap: pretty;
+}
+.cv-lead em { font-style: italic; color: var(--accent); font-weight: 500; }
+.cv-sub {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 34em;
+  text-wrap: pretty;
+}
+.cv-sub--lg { font-size: 19px; color: var(--ink); }
+.cv-request__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 11px 20px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #fff;
+  transition: all 0.15s ease;
+}
+.cv-request__btn::after {
+  content: "→";
+  color: var(--accent);
+  transition: transform 0.15s ease;
+}
+.cv-request__btn:hover { border-color: var(--ink); background: var(--paper); }
+.cv-request__btn:hover::after { transform: translateX(3px); }
+
+@media (max-width: 640px) {
+  .cv-lead { font-size: 25px; }
+}
+
+/* ============================================================
    Arabic typography + RTL
    ============================================================ */
 html[lang="ar"],
@@ -579,6 +653,7 @@ html[dir="rtl"] {
   .project-card__title,
   .lockup__label,
   .langswitch,
+  .cv-request__btn,
   .hero__links { font-family: "IBM Plex Sans Arabic", "Segoe UI", sans-serif; }
   .hero__lede,
   .inner__lede,
@@ -586,7 +661,12 @@ html[dir="rtl"] {
   .timeline__body p,
   .paper-list__title,
   .project-card__tagline,
-  .project-card__body { font-family: "Amiri", serif; }
+  .project-card__body,
+  .cv-lead,
+  .cv-sub { font-family: "Amiri", serif; }
+
+  .cv-request__btn::after { content: "←"; }
+  .cv-request__btn:hover::after { transform: translateX(-3px); }
 
   .hero__top { grid-template-columns: 1fr 156px; }
   .timeline li { grid-template-columns: 1fr 7rem; }

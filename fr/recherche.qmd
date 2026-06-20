@@ -47,15 +47,19 @@ format:
       <h2 class="inner__h2">Articles en préparation</h2>
       <ul class="paper-list">
         <li>
-          <p class="paper-list__title"><a href="#">When more is less: Additive bias as a source of sludge in policy design</a></p>
+          <p class="paper-list__title">The Promptification of the Search Bar: Evidence of a Behavioral Spillover from Generative AI</p>
+          <p class="paper-list__meta">Masaoudi, D., Ranjan, R. P., &amp; <em>Trad, H.</em> · Soumis</p>
+        </li>
+        <li>
+          <p class="paper-list__title">When more is less: Additive bias as a source of sludge in policy design</p>
           <p class="paper-list__meta"><em>Trad, H.</em>, Winters, J., &amp; Strickland, B. · Article en préparation</p>
         </li>
         <li>
-          <p class="paper-list__title"><a href="#">Outcome bias and the persistence of sludge</a></p>
+          <p class="paper-list__title">Outcome bias and the persistence of sludge</p>
           <p class="paper-list__meta"><em>Trad, H.</em> · Article en préparation</p>
         </li>
         <li>
-          <p class="paper-list__title"><a href="#">The moral foundations of sludge</a></p>
+          <p class="paper-list__title">The moral foundations of sludge</p>
           <p class="paper-list__meta"><em>Trad, H.</em> &amp; Strickland, B. · Article en préparation</p>
         </li>
       </ul>
@@ -65,7 +69,7 @@ format:
       <h2 class="inner__h2">Thèse de doctorat</h2>
       <ul class="paper-list">
         <li>
-          <p class="paper-list__title"><a href="#">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</a></p>
+          <p class="paper-list__title">The War on Sludge: Uncovering the Cognitive Roots of Administrative Complexity</p>
           <p class="paper-list__meta">Doctorat, Institut Jean Nicod · École normale supérieure (PSL), 2024</p>
         </li>
       </ul>

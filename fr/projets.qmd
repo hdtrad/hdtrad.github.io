@@ -1,7 +1,7 @@
 ---
 title: "Projets"
 pagetitle: "Projets — Hugo Trad"
-description: "La plateforme d'audit du sludge et le guide méthodologique."
+description: "La plateforme d'audit du sludge — un outil pour auditer la complexité administrative."
 lang: fr
 format:
   html:
@@ -33,19 +33,14 @@ format:
 
   <article class="inner">
     <h1 class="inner__title">Projets</h1>
-    <p class="inner__lede">Deux projets qui traduisent la recherche en outils pour les organisations et les gouvernements.</p>
+    <p class="inner__lede">Une plateforme qui traduit la recherche en un outil concret pour les organisations et les gouvernements.</p>
 
     <article class="project-card">
       <h2 class="project-card__title">Plateforme d'audit du sludge <span class="badge-status">en développement</span></h2>
-      <p class="project-card__tagline">Une plateforme numérique qui combine IA et intelligence collective pour aider les organisations à détecter et réduire la complexité administrative.</p>
+      <p class="project-card__tagline">Une plateforme numérique qui aide les organisations à détecter et réduire la complexité administrative, accompagnée d'un guide praticien pour mener des audits structurés.</p>
       <p class="project-card__links">
         <a href="mailto:hugo.trad@um6p.ma?subject=Sludge%20Audit%20Platform">Intéressé·e ? Contactez-moi pour un accès ou pour partager des retours</a>
       </p>
-    </article>
-
-    <article class="project-card">
-      <h2 class="project-card__title">Guide méthodologique du sludge</h2>
-      <p class="project-card__tagline">Un guide praticien pour mener des audits structurés de la complexité administrative.</p>
     </article>
   </article>
 </main>

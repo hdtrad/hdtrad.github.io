@@ -22,6 +22,15 @@ format:
 </nav>
 
 <main class="content content--editorial">
+  <header class="site-header site-header--nav-only">
+    <nav class="site-header__nav">
+      <a href="recherche.html">Recherche</a>
+      <a href="projets.html">Projets</a>
+      <a href="enseignement.html">Enseignement</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
   <section class="hero hero--editorial">
     <header class="hero__top">
       <figure class="hero__figure">
@@ -33,13 +42,13 @@ format:
         <p class="hero__role">
           Professeur assistant en sciences comportementales<br>
           <span class="hero__role-soft">Africa Business School · Université Mohammed VI Polytechnique</span><br>
-          <span class="hero__role-soft">Doctorat, Institut Jean Nicod · École normale supérieure, 2024</span>
+          <span class="hero__role-soft">PhD, Institut Jean Nicod · École normale supérieure</span>
         </p>
       </div>
     </header>
 
     <p class="hero__lede">
-      En combinant sciences comportementales, méthodologies d'amélioration des processus, intelligence collective et IA, mes travaux ciblent le sludge — la complexité administrative inutile — à travers trois questions interconnectées :
+      En combinant sciences comportementales et méthodologies d'amélioration des processus, mes travaux étudient le sludge — la complexité administrative inutile — à travers trois questions interconnectées :
     </p>
     <ol class="hero__questions">
       <li>Pourquoi la cognition humaine le produit.</li>
@@ -53,7 +62,7 @@ format:
       <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
       <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-bluesky"></i><span>Bluesky</span></a>
-      <a href="https://x.com/hugo_trad"><i class="bi bi-twitter-x"></i><span>X</span></a>
+      <a href="https://x.com/hugo_trad" aria-label="X"><i class="bi bi-twitter-x"></i></a>
     </nav>
   </section>
 
@@ -67,8 +76,8 @@ format:
     <li>
       <span class="tiles__num">02</span>
       <h3><a href="projets.html">Projets</a></h3>
-      <p>Une plateforme d'audit ouverte et un guide méthodologique pour praticiens.</p>
-      <span class="tiles__cue">2 livrables open-source →</span>
+      <p>Une plateforme d'audit ouverte pour mener des audits structurés de la complexité administrative.</p>
+      <span class="tiles__cue">Ouvert · en développement →</span>
     </li>
     <li>
       <span class="tiles__num">03</span>
@@ -79,8 +88,8 @@ format:
     <li>
       <span class="tiles__num">04</span>
       <h3><a href="cv.html">Curriculum Vitae</a></h3>
-      <p>Formation, postes, activités de conseil. CV complet en PDF sur demande.</p>
-      <span class="tiles__cue">Télécharger le PDF →</span>
+      <p>Diplômes et poste actuel. CV complet disponible sur demande.</p>
+      <span class="tiles__cue">Sur demande →</span>
     </li>
   </ul>
 

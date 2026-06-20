@@ -22,6 +22,15 @@ format:
 </nav>
 
 <main class="content content--editorial">
+  <header class="site-header site-header--nav-only">
+    <nav class="site-header__nav">
+      <a href="research.html">البحث</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="teaching.html">التدريس</a>
+      <a href="cv.html">السيرة الذاتية</a>
+    </nav>
+  </header>
+
   <section class="hero hero--editorial">
     <header class="hero__top">
       <figure class="hero__figure">
@@ -33,13 +42,13 @@ format:
         <p class="hero__role">
           أستاذ مساعد في العلوم السلوكية<br>
           <span class="hero__role-soft">كلية إفريقيا للأعمال · جامعة محمد السادس متعددة التخصصات</span><br>
-          <span class="hero__role-soft">دكتوراه، معهد جان نيكو · المدرسة العليا للأساتذة، 2024</span>
+          <span class="hero__role-soft">دكتوراه، معهد جان نيكو · المدرسة العليا للأساتذة</span>
         </p>
       </div>
     </header>
 
     <p class="hero__lede">
-      بالجمع بين العلوم السلوكية ومنهجيات تحسين العمليات والذكاء الجماعي والذكاء الاصطناعي، تستهدف أبحاثي السلادج — التعقيد الإداري غير الضروري — عبر ثلاث أسئلة متشابكة:
+      بالجمع بين العلوم السلوكية ومنهجيات تحسين العمليات، تدرس أبحاثي السلادج — التعقيد الإداري غير الضروري — عبر ثلاث أسئلة متشابكة:
     </p>
     <ol class="hero__questions">
       <li>لماذا يُنتجه الإدراك البشري.</li>
@@ -53,7 +62,7 @@ format:
       <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
       <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
       <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-bluesky"></i><span>Bluesky</span></a>
-      <a href="https://x.com/hugo_trad"><i class="bi bi-twitter-x"></i><span>X</span></a>
+      <a href="https://x.com/hugo_trad" aria-label="X"><i class="bi bi-twitter-x"></i></a>
     </nav>
   </section>
 
@@ -67,8 +76,8 @@ format:
     <li>
       <span class="tiles__num">02</span>
       <h3><a href="projects.html">المشاريع</a></h3>
-      <p>منصة مراجعة مفتوحة ودليل منهجي مُعَدّ للممارسين.</p>
-      <span class="tiles__cue">أداتان مفتوحتا المصدر →</span>
+      <p>منصة مراجعة مفتوحة لإجراء عمليات مراجعة منظَّمة للتعقيد الإداري.</p>
+      <span class="tiles__cue">مفتوحة · قيد التطوير →</span>
     </li>
     <li>
       <span class="tiles__num">03</span>
@@ -79,8 +88,8 @@ format:
     <li>
       <span class="tiles__num">04</span>
       <h3><a href="cv.html">السيرة الذاتية</a></h3>
-      <p>التكوين، والمناصب، والأنشطة الاستشارية. السيرة الذاتية الكاملة بصيغة PDF عند الطلب.</p>
-      <span class="tiles__cue">تحميل PDF →</span>
+      <p>الشهادات والمنصب الحالي. السيرة الكاملة متوفرة عند الطلب.</p>
+      <span class="tiles__cue">عند الطلب →</span>
     </li>
   </ul>
 
