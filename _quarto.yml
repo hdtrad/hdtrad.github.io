@@ -4,6 +4,7 @@ project:
   resources:
     - "assets/**"
     - "robots.txt"
+    - "google98e7309f050f331a.html"
 
 website:
   title: "Hugo Trad"
