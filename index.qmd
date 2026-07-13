@@ -1,9 +1,102 @@
 ---
-pagetitle: "Hugo Trad"
-include-in-header:
-  - text: |
-      <meta http-equiv="refresh" content="0; url=en/">
-      <link rel="canonical" href="https://hdtrad.github.io/en/">
+title: "Hugo Trad"
+pagetitle: "Hugo Trad | Behavioural Scientist & Assistant Professor"
+description: "Hugo Trad is a behavioural scientist and Assistant Professor at Africa Business School, UM6P, researching administrative complexity, sludge, and administrative burden."
+lang: en
+format:
+  html:
+    page-layout: custom
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://hdtrad.github.io/">
+          <link rel="alternate" hreflang="en" href="https://hdtrad.github.io/">
+          <link rel="alternate" hreflang="fr" href="https://hdtrad.github.io/fr/">
+          <link rel="alternate" hreflang="ar" href="https://hdtrad.github.io/ar/">
+          <link rel="alternate" hreflang="x-default" href="https://hdtrad.github.io/">
 ---
 
-[Continue to English version](en/index.qmd) · [Version française](fr/index.qmd) · [النسخة العربية](ar/index.qmd)
+```{=html}
+<nav class="langswitch" aria-label="Language">
+  <a href="/" class="is-active">EN</a>
+  <a href="/fr/">FR</a>
+  <a href="/ar/">AR</a>
+</nav>
+
+<main class="content content--editorial">
+  <header class="site-header site-header--nav-only">
+    <nav class="site-header__nav">
+      <a href="/en/research.html">Research</a>
+      <a href="/en/projects.html">Projects</a>
+      <a href="/en/teaching.html">Teaching</a>
+      <a href="/en/cv.html">CV</a>
+    </nav>
+  </header>
+
+  <section class="hero hero--editorial">
+    <header class="hero__top">
+      <figure class="hero__figure">
+        <img src="/assets/headshot-square.jpg" alt="Hugo Trad" class="hero__photo hero__photo--portrait">
+      </figure>
+      <div class="hero__intro">
+        <p class="hero__location"><span>Rabat</span><i class="hero__loc-dot" aria-hidden="true"></i><span class="hero__loc-soft">Paris</span></p>
+        <h1 class="hero__name">Hugo Trad</h1>
+        <p class="hero__role">
+          Assistant Professor of Behavioural Science<br>
+          <span class="hero__role-soft">Africa Business School · Université Mohammed VI Polytechnique</span><br>
+          <span class="hero__role-soft">PhD, Institut Jean Nicod · École normale supérieure</span>
+        </p>
+      </div>
+    </header>
+
+    <p class="hero__lede">
+      Combining behavioural science and process improvement methodologies, my work investigates excessive sludge — unnecessary administrative complexity — through three intersecting questions:
+    </p>
+    <ol class="hero__questions">
+      <li>Why human cognition produces it.</li>
+      <li>What it does to the people who experience it.</li>
+      <li>How organisations and governments can detect and reduce it in practice.</li>
+    </ol>
+
+    <nav class="hero__links" aria-label="Profiles">
+      <a href="mailto:hugo.trad@um6p.ma"><i class="bi bi-envelope"></i><span>Email</span></a>
+      <a href="https://scholar.google.com/citations?user=lqobKZ0AAAAJ"><i class="ai ai-google-scholar"></i><span>Scholar</span></a>
+      <a href="https://github.com/hdtrad"><i class="bi bi-github"></i><span>GitHub</span></a>
+      <a href="https://www.linkedin.com/in/hugo-trad-phd-90697897/"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
+      <a href="https://bsky.app/profile/hugotrad.bsky.social"><i class="bi bi-bluesky"></i><span>Bluesky</span></a>
+      <a href="https://x.com/hugo_trad" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+    </nav>
+  </section>
+
+  <ul class="tiles tiles--numbered">
+    <li>
+      <span class="tiles__num">01</span>
+      <h3><a href="/en/research.html">Research</a></h3>
+      <p>Three working papers on cognitive bias, the psychology of administrative burden, and audit design.</p>
+      <span class="tiles__cue">Three threads · 3 papers in prep →</span>
+    </li>
+    <li>
+      <span class="tiles__num">02</span>
+      <h3><a href="/en/projects.html">Projects</a></h3>
+      <p>An open audit platform for running structured audits of administrative complexity.</p>
+      <span class="tiles__cue">Open · in development →</span>
+    </li>
+    <li>
+      <span class="tiles__num">03</span>
+      <h3><a href="/en/teaching.html">Teaching</a></h3>
+      <p>Doctoral, master, and executive courses in experimental methods and applied behavioural science.</p>
+      <span class="tiles__cue">2 active · 2 planned →</span>
+    </li>
+    <li>
+      <span class="tiles__num">04</span>
+      <h3><a href="/en/cv.html">Curriculum Vitae</a></h3>
+      <p>Degrees and current position. Full CV available on request.</p>
+      <span class="tiles__cue">On request →</span>
+    </li>
+  </ul>
+
+  <aside class="lockup" aria-label="Affiliation">
+    <span class="lockup__label">Affiliated with</span>
+    <img src="/assets/logos/um6p-abs.png" alt="Africa Business School · Université Mohammed VI Polytechnique">
+  </aside>
+</main>
+```
