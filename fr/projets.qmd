@@ -37,7 +37,7 @@ format:
 
     <article class="project-card">
       <h2 class="project-card__title">Plateforme d'audit du sludge <span class="badge-status">en développement</span></h2>
-      <p class="project-card__tagline">Une plateforme numérique qui aide les organisations à détecter et réduire la complexité administrative, accompagnée d'un guide praticien pour mener des audits structurés.</p>
+      <p class="project-card__tagline">Une plateforme numérique qui aide les organisations à détecter et réduire la complexité administrative.</p>
       <p class="project-card__links">
         <a href="mailto:hugo.trad@um6p.ma?subject=Sludge%20Audit%20Platform">Intéressé·e ? Contactez-moi pour un accès ou pour partager des retours</a>
       </p>
