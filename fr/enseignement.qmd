@@ -61,7 +61,7 @@ format:
       <h2 class="inner__h2">Planifiés</h2>
       <ul class="timeline">
         <li>
-          <span class="timeline__date">Janv. 2027</span>
+          <span class="timeline__date">2026–2027 · Janv. 2027</span>
           <div class="timeline__body">
             <strong>Méthodes mixtes · Méthodes de recherche</strong>
             <span class="timeline__sub">Master · Africa Business School · UM6P</span>
@@ -73,7 +73,7 @@ format:
           <div class="timeline__body">
             <strong>Comportement humain et performance au travail</strong>
             <span class="timeline__sub">Licence · School of Hospitality Business &amp; Management · UM6P</span>
-            <p>Sciences comportementales pour cadres de l'hôtellerie et des services.</p>
+            <p>Sciences comportementales pour étudiants de l'hôtellerie et des services.</p>
           </div>
         </li>
       </ul>

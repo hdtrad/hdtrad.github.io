@@ -61,7 +61,7 @@ format:
       <h2 class="inner__h2">مزمعة</h2>
       <ul class="timeline">
         <li>
-          <span class="timeline__date">يناير 2027</span>
+          <span class="timeline__date">2026–2027 · يناير 2027</span>
           <div class="timeline__body">
             <strong>المناهج المختلطة · مناهج البحث</strong>
             <span class="timeline__sub">ماستر · كلية إفريقيا للأعمال · UM6P</span>
@@ -73,7 +73,7 @@ format:
           <div class="timeline__body">
             <strong>السلوك الإنساني والأداء في بيئة العمل</strong>
             <span class="timeline__sub">إجازة · School of Hospitality Business &amp; Management · UM6P</span>
-            <p>العلوم السلوكية لقادة قطاعَي الضيافة والخدمات.</p>
+            <p>العلوم السلوكية لطلاب قطاعَي الضيافة والخدمات.</p>
           </div>
         </li>
       </ul>
